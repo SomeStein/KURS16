@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.rpgle.pgm": "rpgle",
+        "*.rpgle.srvpgm": "rpgle"
+    }
+}

@@ -1,17 +1,5 @@
 {
   "new-objects": [
-    "KURS16/qrpglesrc/aufg001.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg002.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg003.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg003ext.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg004.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg005.sqlrpgle.pgm",
-    "KURS16/qrpglesrc/aufg006.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg006cpy.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg006ext.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm",
-    "KURS16/qrpglesrc/aufg006tst.rpgle.pgm",
-    "KURS16/qrpglesrc/aufg007.rpgle.pgm",
     "KURS16/qrpglesrc/logger.sqlrpgle.pgm",
     "KURS16/qrpglesrc/rechner.rpgle.pgm",
     "KURS16/qrpglesrc/testlog.rpgle.pgm",
