@@ -381,3 +381,71 @@ pwd 2: /home/KURS16
 [2025-10-28T09:48:14.662Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.2\package.nls.json
 [2025-10-28T09:48:14.740Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
 [2025-10-28T09:48:14.745Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:49:21.158Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-28T09:49:21.163Z] info: 	Start app
+[2025-10-28T09:49:21.164Z] info: 	vscode.env.remoteName: undefined
+[2025-10-28T09:49:21.165Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-28T09:49:21.166Z] info: 	vscode.env.appHost: desktop
+[2025-10-28T09:49:21.168Z] info: 	vscode.env.appHost: undefined
+[2025-10-28T09:49:21.170Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.2\package.nls.en.json
+[2025-10-28T09:49:21.174Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.2\package.nls.json
+[2025-10-28T09:49:21.198Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:49:21.203Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.142Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.152Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.161Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.177Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.189Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.197Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.207Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.220Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.229Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.239Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.246Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.256Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.263Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.273Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.280Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.290Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.297Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.308Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.320Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.328Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.339Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.347Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.360Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.372Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.387Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.395Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.409Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.426Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.438Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.446Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.462Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.474Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.482Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.494Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.508Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.519Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.527Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.538Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.547Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.560Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.571Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:17.576Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:51:28.161Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T09:51:44.142Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\source-list\KURS16.json
+[2025-10-28T09:51:44.148Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\KURS16.json
+[2025-10-28T09:51:44.226Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\KURS16.json
+[2025-10-28T09:51:44.235Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-28T09:51:48.522Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\KURS16.json
+[2025-10-28T09:52:02.063Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\source-list\KURS16.json
+[2025-10-28T09:52:02.065Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\KURS16.json
+[2025-10-28T09:52:02.083Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\KURS16.json
+[2025-10-28T09:52:02.086Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-28T09:52:04.852Z] info: 	Expand: [object Object]
+[2025-10-28T09:52:05.956Z] info: 	Expand: [object Object]
+[2025-10-28T09:52:15.268Z] info: 	Expand: [object Object]
+[2025-10-28T09:52:16.668Z] info: 	onDidChangeSelection: [object Object]
+[2025-10-28T09:52:16.669Z] info: 	[object Object]
+[2025-10-28T09:52:58.838Z] info: 	ChangeVisibility: [object Object]
