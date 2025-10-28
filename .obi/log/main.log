@@ -31,3 +31,51 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 2025-10-21 15:44:40,257 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name="'KURS16/AUFG006.rpgle.pgm'", lib_obj_name_md_encoded="'KURS16/AUFG006.rpgle.pgm'", obj_name="AUFG006.rpgle.pgm'", obj_lib="'KURS16"
 2025-10-21 15:44:40,257 DEBUG - results.py[155]: []
 2025-10-21 15:44:40,257 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='/home/KURS16/project1/.obi/build-output/compiled-object-list.md'; 132564 Bytes
+2025-10-28 11:00:01,389 INFO - main.py[49]: Arguments: {'action': 'create', 'source': 'KURS16/qrpglesrc/AUFG006.rpgle.pgm', 'set_path': '.', 'editor': None}
+2025-10-28 11:00:01,673 DEBUG - main.py[111]: Create build list
+2025-10-28 11:00:01,674 ERROR - properties.py[31]: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\AaronPumm\obi\obi\module\properties.py", line 28, in get_json
+    config_content[config] = json.load(f)
+                             ~~~~~~~~~^^^
+  File "C:\Users\AaronPumm\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\AaronPumm\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AaronPumm\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AaronPumm\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-10-28 11:00:01,695 DEBUG - files.py[44]: Objects in build list: 0
+2025-10-28 11:00:01,695 DEBUG - files.py[46]: Search for changed sources in '.\src'
+2025-10-28 11:00:01,696 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
+2025-10-28 11:00:01,696 INFO - files.py[48]: Found 1 sources
+2025-10-28 11:00:01,696 DEBUG - files.py[55]: KURS16/qrpglesrc/AUFG006.rpgle.pgm not in build list
+2025-10-28 11:00:01,701 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/AUFG006.rpgle.pgm
+2025-10-28 11:00:01,701 DEBUG - dependency.py[27]: objects_tree={'KURS16/qrpglesrc/AUFG006.rpgle.pgm': {}}
+2025-10-28 11:00:01,703 DEBUG - dependency.py[31]: ordered_target_tree=[{'level': 1, 'sources': [{'source': 'KURS16/qrpglesrc/AUFG006.rpgle.pgm', 'cmds': []}]}]
+2025-10-28 11:00:01,707 DEBUG - dependency.py[36]: new_target_tree=[{'level': 1, 'sources': [{'source': 'KURS16/qrpglesrc/AUFG006.rpgle.pgm', 'cmds': []}]}]
+2025-10-28 11:00:01,709 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/AUFG006.rpgle.pgm'
+2025-10-28 11:00:01,710 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/AUFG006.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'AUFG006.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'AUFG006', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:00:01,710 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/AUFG006.rpgle.pgm
+2025-10-28 11:00:01,710 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:00:01,710 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:00:01,711 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:00:01,713 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:00:01,714 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/AUFG006.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'AUFG006.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'AUFG006', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:00:01,714 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:00:01,715 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:00:01,715 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:00:01,715 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:00:01,715 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/AUFG006.rpgle.pgm
+2025-10-28 11:00:01,716 DEBUG - build_cmds.py[25]: Write object list len(object_list)=75 to .obi/build-output/object-list.txt
+2025-10-28 11:00:01,716 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 75 Bytes
+2025-10-28 11:00:01,724 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/AUFG006.rpgle.pgm', lib_obj_name_md_encoded='KURS16/AUFG006.rpgle.pgm', obj_name='AUFG006.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:00:01,724 DEBUG - results.py[155]: []
+2025-10-28 11:00:01,725 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 133366 Bytes

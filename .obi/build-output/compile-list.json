@@ -1,12 +1,21 @@
 {
-  "timestamp": "2025-10-21 15:44:40.352180",
+  "timestamp": "2025-10-28 11:00:01.718169",
   "compiles": [
     {
       "level": 1,
       "sources": [
         {
-          "source": "'KURS16/qrpglesrc/AUFG006.rpgle.pgm'",
-          "cmds": []
+          "source": "KURS16/qrpglesrc/AUFG006.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/AUFG006.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/AUFG006'\") SRCSTMF('\"'src/KURS16/qrpglesrc/AUFG006.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
         }
       ]
     }

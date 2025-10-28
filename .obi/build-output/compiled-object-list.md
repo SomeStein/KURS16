@@ -7,11 +7,11 @@
 
 ## Summary
 
-Created at 2025-10-21 15:44:40.352180
+Created at 2025-10-28 11:00:01.718169
 
 | New sources | Changed sources | Dependend objects |
 | :-   | :--------         | :-------              |
-| <ul><li>'KURS16/qrpglesrc/AUFG006.rpgle.pgm'</li></ul> | <ul></ul> | <ul></ul> |
+| <ul><li>KURS16/qrpglesrc/AUFG006.rpgle.pgm</li></ul> | <ul></ul> | <ul></ul> |
 
 
 ## Details
@@ -19,7 +19,7 @@ Created at 2025-10-21 15:44:40.352180
 | level | lib | object | status| no. of commands / details |
 | :--- | :---- | :----- | :----- | :---- |
 | **1. level** |
-| | 'KURS16 | [qrpglesrc/AUFG006.rpgle.pgm'](/src/'KURS16/qrpglesrc/AUFG006.rpgle.pgm') | <span style="background-color:#adcbe3;color:black">new</span> | <details><summary>0 commands</summary> <table><tr><th>timestamp</th><th>status</th><th>command</th></tr></table> </details>|
+| | KURS16 | [qrpglesrc\\AUFG006.rpgle.pgm](/src/KURS16/qrpglesrc/AUFG006.rpgle.pgm) | <span style="background-color:#adcbe3;color:black">new</span> | <details><summary>2 commands</summary> <table><tr><th>timestamp</th><th>status</th><th>command</th></tr><tr><td>None</td><td><span style="background-color:#adcbe3;color:black">new</span></td><td><details><summary>cl -v \"CHGATR OBJ('\"'src/KUR...</summary><code>cl -v "CHGATR OBJ('"'src/KURS16/qrpglesrc/AUFG006.rpgle.pgm'"') ATR(*CCSID) VALUE(1208)"; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"</code></details> </td></tr><tr><td>None</td><td><span style="background-color:#adcbe3;color:black">new</span></td><td><details><summary>liblist -a kurs16 2> /dev/null...</summary><code>liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTBNDRPG PGM("'kurs16/AUFG006'") SRCSTMF('"'src/KURS16/qrpglesrc/AUFG006.rpgle.pgm'"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) "; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"</code></details> </td></tr></table> </details>|
 
 <br/>
 
