@@ -1,0 +1,8 @@
+[
+  {
+    "source-file": "*",
+    "source-lib": "KURS16",
+    "source-member": "*",
+    "use-regex": false
+  }
+]

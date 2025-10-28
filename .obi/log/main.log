@@ -1,0 +1,33 @@
+2025-10-21 15:44:40,187 INFO - main.py[49]: Arguments: {'action': 'run', 'source': None, 'set_path': '.', 'editor': None}
+2025-10-21 15:44:40,248 DEBUG - main.py[55]: Run build list
+2025-10-21 15:44:40,248 DEBUG - main.py[58]: Load configs
+2025-10-21 15:44:40,248 DEBUG - main.py[63]: Load compile list
+2025-10-21 15:44:40,248 DEBUG - main.py[68]: Remember sources needed to compile
+2025-10-21 15:44:40,248 ERROR - properties.py[31]: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/apps/academy/2025/obi/module/properties.py", line 28, in get_json
+    config_content[config] = json.load(f)
+                             ~~~~~~~~~^^^
+  File "/QOpenSys/pkgs/lib/python3.13/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/QOpenSys/pkgs/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/QOpenSys/pkgs/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/QOpenSys/pkgs/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-10-21 15:44:40,254 DEBUG - files.py[160]: Source source="'KURS16/qrpglesrc/AUFG006.rpgle.pgm'" gets removed from object-build-list because it needs to get compiled
+2025-10-21 15:44:40,256 DEBUG - main.py[75]: Run object builds
+2025-10-21 15:44:40,256 INFO - run_cmds.py[37]: Run level_item['level']=1: 1 entries
+2025-10-21 15:44:40,256 INFO - run_cmds.py[45]: 'KURS16/qrpglesrc/AUFG006.rpgle.pgm'
+2025-10-21 15:44:40,256 INFO - run_cmds.py[46]: []
+2025-10-21 15:44:40,256 DEBUG - main.py[87]: Get results from build
+2025-10-21 15:44:40,257 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name="'KURS16/AUFG006.rpgle.pgm'", lib_obj_name_md_encoded="'KURS16/AUFG006.rpgle.pgm'", obj_name="AUFG006.rpgle.pgm'", obj_lib="'KURS16"
+2025-10-21 15:44:40,257 DEBUG - results.py[155]: []
+2025-10-21 15:44:40,257 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='/home/KURS16/project1/.obi/build-output/compiled-object-list.md'; 132564 Bytes

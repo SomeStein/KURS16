@@ -1,0 +1,383 @@
+[2025-10-21T12:10:44.170Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-21T12:10:44.172Z] info: 	Start app
+[2025-10-21T12:10:44.173Z] info: 	vscode.env.remoteName: undefined
+[2025-10-21T12:10:44.173Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-21T12:10:44.173Z] info: 	vscode.env.appHost: desktop
+[2025-10-21T12:10:44.174Z] info: 	vscode.env.appHost: undefined
+[2025-10-21T12:10:44.174Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.en.json
+[2025-10-21T12:10:44.175Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.json
+[2025-10-21T12:10:44.185Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:10:44.188Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-21T12:10:44.189Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-21T12:10:44.226Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-21T12:10:44.237Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:13:12.869Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-21T12:13:12.873Z] info: 	Start app
+[2025-10-21T12:13:12.873Z] info: 	vscode.env.remoteName: undefined
+[2025-10-21T12:13:12.874Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-21T12:13:12.874Z] info: 	vscode.env.appHost: desktop
+[2025-10-21T12:13:12.874Z] info: 	vscode.env.appHost: undefined
+[2025-10-21T12:13:12.875Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.en.json
+[2025-10-21T12:13:12.876Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.json
+[2025-10-21T12:13:12.883Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:13:25.227Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:13:25.229Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.475Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.483Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.490Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.496Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.507Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.513Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.519Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.526Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.531Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.537Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.543Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.549Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.553Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.558Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.563Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.567Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.573Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.578Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.583Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.588Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.592Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.596Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.599Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.603Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.607Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.612Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.615Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.620Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.624Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.627Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.630Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.633Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.636Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.640Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.643Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.646Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.651Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.655Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.660Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.663Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.667Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.708Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.709Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T12:16:39.711Z] warn: 	File does not exist: c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml
+[2025-10-21T12:16:39.713Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T12:16:42.026Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-21T12:16:42.028Z] info: 	Start app
+[2025-10-21T12:16:42.029Z] info: 	vscode.env.remoteName: undefined
+[2025-10-21T12:16:42.029Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-21T12:16:42.029Z] info: 	vscode.env.appHost: desktop
+[2025-10-21T12:16:42.030Z] info: 	vscode.env.appHost: undefined
+[2025-10-21T12:16:42.030Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.en.json
+[2025-10-21T12:16:42.032Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.json
+[2025-10-21T12:16:42.042Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T12:16:42.043Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T12:16:42.106Z] info: 	ChangeVisibility: [object Object]
+[2025-10-21T12:31:45.744Z] info: 	ChangeVisibility: [object Object]
+[2025-10-21T12:40:01.251Z] info: 	ChangeVisibility: [object Object]
+[2025-10-21T12:40:08.775Z] info: 	Connected to 80.120.164.220
+[2025-10-21T12:40:08.776Z] info: 	Transfer: .obi/etc/app-config.toml,.obi/etc/.user-app-config.toml
+[2025-10-21T12:40:08.782Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2>/dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a gen_src_list -p .'
+[2025-10-21T12:40:09.228Z] info: 	CODE: 1
+[2025-10-21T12:40:09.229Z] info: 	STDOUT: 
+[2025-10-21T12:40:09.230Z] error: 	STDERR: bash: line 1: cd: /home/KURS16/project1: No such file or directory
+[2025-10-21T12:40:09.232Z] error: 	bash: line 1: cd: /home/KURS16/project1: No such file or directory
+[2025-10-21T12:40:59.152Z] info: 	ChangeVisibility: [object Object]
+[2025-10-21T12:41:01.892Z] info: 	ChangeVisibility: [object Object]
+[2025-10-21T12:41:12.303Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\source-list\src.json
+[2025-10-21T12:41:12.313Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\src.json
+[2025-10-21T12:41:12.413Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\src.json
+[2025-10-21T12:41:16.029Z] info: 	Expand: [object Object]
+[2025-10-21T12:41:19.621Z] info: 	Collapse: [object Object]
+[2025-10-21T12:41:25.247Z] info: 	ChangeVisibility: [object Object]
+[2025-10-21T13:21:32.837Z] info: 	ChangeVisibility: [object Object]
+[2025-10-21T13:21:35.128Z] info: 	ChangeVisibility: [object Object]
+[2025-10-21T13:23:24.831Z] info: 	Source: KURS16/qrpglesrc/AUFG006.rpgle.pgm
+[2025-10-21T13:23:24.832Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:23:24.835Z] info: 	Get changed sources
+[2025-10-21T13:23:24.836Z] info: 	Get dependend sources
+[2025-10-21T13:23:24.836Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-21T13:23:24.837Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-21T13:23:24.837Z] debug: 	JSON content: 
+[2025-10-21T13:23:24.837Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-21T13:23:24.837Z] info: 	Clean dir
+[2025-10-21T13:23:24.839Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json
+[2025-10-21T13:23:24.840Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json
+[2025-10-21T13:23:24.841Z] info: 	Render BuildSummary
+[2025-10-21T13:23:24.843Z] info: 	compile_list['new-objects']: 0
+[2025-10-21T13:23:24.843Z] info: 	compile_list['changed-sources']: 1
+[2025-10-21T13:23:24.857Z] info: 	compile_list['new-objects']: 0
+[2025-10-21T13:23:24.858Z] info: 	compile_list['changed-sources']: 1
+[2025-10-21T13:37:53.758Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-21T13:37:53.760Z] info: 	Start app
+[2025-10-21T13:37:53.760Z] info: 	vscode.env.remoteName: undefined
+[2025-10-21T13:37:53.760Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-21T13:37:53.760Z] info: 	vscode.env.appHost: desktop
+[2025-10-21T13:37:53.761Z] info: 	vscode.env.appHost: undefined
+[2025-10-21T13:37:53.761Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.en.json
+[2025-10-21T13:37:53.763Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.json
+[2025-10-21T13:37:53.769Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:37:53.772Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.040Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.044Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.049Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.053Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.058Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.061Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.065Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.069Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.072Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.076Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.079Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.082Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.085Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.088Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.091Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.094Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.097Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.100Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.104Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.107Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.110Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.113Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.117Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.120Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.123Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.127Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.130Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.133Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.136Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.138Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.142Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.145Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.148Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.151Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.154Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.157Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.161Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.164Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.167Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.170Z] info: 	Check OBI path %UserProfile%\obi\venv\Scripts\python.exe: false
+[2025-10-21T13:38:39.174Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:39.178Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.693Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.699Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.703Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.708Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.711Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.714Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.718Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.721Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.725Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.728Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.731Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.734Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.738Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.743Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.746Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.749Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.752Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.756Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.759Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.762Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.765Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.768Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.771Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.774Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.776Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.779Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.782Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.785Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.788Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.792Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.795Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.798Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.801Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.804Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.807Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.810Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.813Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.816Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.819Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.823Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.829Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:43.831Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:57.764Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-21T13:38:57.765Z] info: 	Start app
+[2025-10-21T13:38:57.766Z] info: 	vscode.env.remoteName: undefined
+[2025-10-21T13:38:57.766Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-21T13:38:57.766Z] info: 	vscode.env.appHost: desktop
+[2025-10-21T13:38:57.766Z] info: 	vscode.env.appHost: undefined
+[2025-10-21T13:38:57.767Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.en.json
+[2025-10-21T13:38:57.768Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.json
+[2025-10-21T13:38:57.776Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:38:57.778Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:40:31.244Z] info: 	Source: KURS16/qrpglesrc/AUFG006.rpgle.pgm
+[2025-10-21T13:40:31.246Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:40:31.246Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-21T13:40:31.247Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:40:31.248Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source 'KURS16/qrpglesrc/AUFG006.rpgle.pgm'
+[2025-10-21T13:40:31.580Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source 'KURS16/qrpglesrc/AUFG006.rpgle.pgm''
+[2025-10-21T13:40:31.581Z] info: 	Render BuildSummary
+[2025-10-21T13:40:31.584Z] info: 	compile_list['new-objects']: 1
+[2025-10-21T13:40:31.585Z] info: 	compile_list['changed-sources']: 0
+[2025-10-21T13:40:31.598Z] info: 	compile_list['new-objects']: 1
+[2025-10-21T13:40:31.598Z] info: 	compile_list['changed-sources']: 0
+[2025-10-21T13:41:09.114Z] info: 	compile_list['new-objects']: 1
+[2025-10-21T13:41:09.114Z] info: 	compile_list['changed-sources']: 0
+[2025-10-21T13:41:17.772Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:41:17.773Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-21T13:41:17.774Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:41:17.775Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-21T13:41:17.805Z] info: 	Get changed sources
+[2025-10-21T13:41:17.807Z] info: 	Start retrieve_current_source_hashes
+[2025-10-21T13:41:17.812Z] info: 	Duration: 4.7823000000207685 milliseconds
+[2025-10-21T13:41:17.812Z] info: 	Get checksum of sources
+[2025-10-21T13:41:17.818Z] info: 	In total 1 hash values. Duration: 5.4429999999993015
+[2025-10-21T13:41:17.819Z] info: 	1. It took 12.65769999998156 milliseconds.
+[2025-10-21T13:41:17.820Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-21T13:41:17.822Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-21T13:41:17.822Z] debug: 	JSON content: 
+[2025-10-21T13:41:17.823Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-21T13:41:17.823Z] info: 	Check 1 sources
+[2025-10-21T13:41:17.824Z] info: 	Start check_source_change_item: It took 0.3323999999847729 milliseconds.
+[2025-10-21T13:41:17.825Z] info: 	Change check: It took 0.9028000000107568 milliseconds.
+[2025-10-21T13:41:17.825Z] info: 	new_sources: 1, changed-sources: 0
+[2025-10-21T13:41:17.826Z] info: 	2. It took 6.2149999999965075 milliseconds.
+[2025-10-21T13:41:17.827Z] info: 	Get dependend sources
+[2025-10-21T13:41:17.828Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-21T13:41:17.830Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-21T13:41:17.831Z] debug: 	JSON content: 
+[2025-10-21T13:41:17.831Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-21T13:41:17.832Z] info: 	Clean dir
+[2025-10-21T13:41:17.833Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json
+[2025-10-21T13:41:17.834Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json
+[2025-10-21T13:41:18.169Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-21T13:41:18.170Z] info: 	Render BuildSummary
+[2025-10-21T13:41:18.173Z] info: 	compile_list['new-objects']: 1
+[2025-10-21T13:41:18.174Z] info: 	compile_list['changed-sources']: 0
+[2025-10-21T13:41:27.023Z] info: 	Connected to 80.120.164.220
+[2025-10-21T13:41:27.024Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-21T13:41:27.351Z] info: 	CODE: 0
+[2025-10-21T13:41:27.352Z] info: 	STDOUT: project1
+[2025-10-21T13:41:27.353Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-21T13:41:27.706Z] info: 	CODE: 0
+[2025-10-21T13:41:27.707Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-21T13:41:27.709Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-21T13:41:28.113Z] info: 	CODE: 2
+[2025-10-21T13:41:28.113Z] info: 	STDOUT: 
+[2025-10-21T13:41:28.114Z] error: 	STDERR: ls: cannot access '/home/KURS16/project1/src': No such file or directory
+[2025-10-21T13:41:46.035Z] error: 	Transfer canceled by user
+[2025-10-21T13:41:46.039Z] info: 	Transfer files: KURS16/qrpglesrc/AUFG006.rpgle.pgm
+[2025-10-21T13:41:46.983Z] info: 	compile_list['new-objects']: 1
+[2025-10-21T13:41:46.983Z] info: 	compile_list['changed-sources']: 0
+[2025-10-21T13:44:07.124Z] info: 	Source: KURS16/qrpglesrc/AUFG006.rpgle.pgm
+[2025-10-21T13:44:07.125Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:44:07.125Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-21T13:44:07.126Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:44:07.127Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source 'KURS16/qrpglesrc/AUFG006.rpgle.pgm'
+[2025-10-21T13:44:07.482Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source 'KURS16/qrpglesrc/AUFG006.rpgle.pgm''
+[2025-10-21T13:44:07.483Z] info: 	Render BuildSummary
+[2025-10-21T13:44:07.488Z] info: 	compile_list['new-objects']: 1
+[2025-10-21T13:44:07.488Z] info: 	compile_list['changed-sources']: 0
+[2025-10-21T13:44:10.795Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-21T13:44:11.103Z] info: 	CODE: 0
+[2025-10-21T13:44:11.104Z] info: 	STDOUT: project1
+[2025-10-21T13:44:11.105Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-21T13:44:11.391Z] info: 	CODE: 0
+[2025-10-21T13:44:11.392Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-21T13:44:11.399Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-21T13:44:11.799Z] info: 	CODE: 2
+[2025-10-21T13:44:11.801Z] info: 	STDOUT: 
+[2025-10-21T13:44:11.802Z] error: 	STDERR: ls: cannot access '/home/KURS16/project1/src': No such file or directory
+[2025-10-21T13:44:34.437Z] info: 	Execute cmd: bash -c 'cd /home/KURS16/project1 2> /dev/null || mkdir -p /home/KURS16/project1 && cd /home/KURS16/project1 && echo "pwd: $(pwd)" || exit 1; [ `echo $(pwd) | wc -c` -ge 3 ] &&  echo "Current dir: $(pwd)" ||  exit 1  ;  echo "Change back from $(pwd)" &&  cd  && echo "pwd 2: $(pwd)" && rm -rf /home/KURS16/project1'
+[2025-10-21T13:44:35.126Z] info: 	CODE: 0
+[2025-10-21T13:44:35.129Z] info: 	STDOUT: pwd: /home/KURS16/project1
+Current dir: /home/KURS16/project1
+Change back from /home/KURS16/project1
+pwd 2: /home/KURS16
+[2025-10-21T13:44:35.130Z] info: 	Finished cleanup: true
+[2025-10-21T13:44:35.132Z] info: 	Transer local dir c:\Users\AaronPumm\git\KURS16/.obi to /home/KURS16/project1/.obi
+[2025-10-21T13:44:35.136Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16/.obi/etc, remote: /home/KURS16/project1/.obi/etc
+[2025-10-21T13:44:37.246Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json,c:\Users\AaronPumm\git\KURS16\.obi\etc\constants.py,c:\Users\AaronPumm\git\KURS16\.obi\etc\logger_config.py,c:\Users\AaronPumm\git\KURS16\.obi\etc\.user-app-config.toml,c:\Users\AaronPumm\git\KURS16\.obi\etc\app-config.toml,c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json,c:\Users\AaronPumm\git\KURS16\.obi\etc\source-config.toml,c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-21T13:44:37.250Z] info: 	Finished transfer in 2.113559999999998 seconds.
+[2025-10-21T13:44:37.253Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16/.obi/build-output, remote: /home/KURS16/project1/.obi/build-output
+[2025-10-21T13:44:38.167Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-21T13:44:38.170Z] info: 	Finished transfer in 0.9163621000000276 seconds.
+[2025-10-21T13:44:38.172Z] info: 	Transfer files: KURS16/qrpglesrc/AUFG006.rpgle.pgm
+[2025-10-21T13:44:40.046Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:44:40.051Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-21T13:44:40.053Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source 'KURS16/qrpglesrc/AUFG006.rpgle.pgm'
+[2025-10-21T13:44:40.384Z] debug: 	System command succeeded: generate_build_script | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source 'KURS16/qrpglesrc/AUFG006.rpgle.pgm''
+[2025-10-21T13:44:40.384Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-21T13:44:41.109Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-21T13:44:41.944Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-21T13:44:41.949Z] info: 	Finished transfer in 0.8378711999999942 seconds.
+[2025-10-21T13:44:41.954Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-21T13:44:42.541Z] info: 	CODE: 0
+[2025-10-21T13:44:42.541Z] info: 	STDOUT: 
+[2025-10-21T13:44:44.019Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-21T13:44:44.020Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-21T13:44:44.140Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-21T13:44:44.145Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-21T13:44:44.149Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-21T13:44:44.150Z] debug: 	JSON content: 
+[2025-10-21T13:44:44.151Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-21T13:44:44.156Z] info: 	Render BuildSummary
+[2025-10-21T13:44:44.169Z] info: 	compile_list['new-objects']: 1
+[2025-10-21T13:44:44.170Z] info: 	compile_list['changed-sources']: 0
+[2025-10-22T10:16:06.928Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-22T10:16:06.930Z] info: 	Start app
+[2025-10-22T10:16:06.930Z] info: 	vscode.env.remoteName: undefined
+[2025-10-22T10:16:06.930Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-22T10:16:06.931Z] info: 	vscode.env.appHost: desktop
+[2025-10-22T10:16:06.931Z] info: 	vscode.env.appHost: undefined
+[2025-10-22T10:16:06.933Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.en.json
+[2025-10-22T10:16:06.934Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.json
+[2025-10-22T10:16:06.945Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-22T10:16:06.948Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-24T07:37:09.989Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-24T07:37:09.991Z] info: 	Start app
+[2025-10-24T07:37:09.991Z] info: 	vscode.env.remoteName: undefined
+[2025-10-24T07:37:09.992Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-24T07:37:09.992Z] info: 	vscode.env.appHost: desktop
+[2025-10-24T07:37:09.992Z] info: 	vscode.env.appHost: undefined
+[2025-10-24T07:37:09.993Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.en.json
+[2025-10-24T07:37:09.994Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.32\package.nls.json
+[2025-10-24T07:37:10.004Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-24T07:37:10.006Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-24T07:38:36.581Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-24T07:38:36.583Z] info: 	Start app
+[2025-10-24T07:38:36.584Z] info: 	vscode.env.remoteName: undefined
+[2025-10-24T07:38:36.585Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-24T07:38:36.586Z] info: 	vscode.env.appHost: desktop
+[2025-10-24T07:38:36.586Z] info: 	vscode.env.appHost: undefined
+[2025-10-24T07:38:36.587Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.34\package.nls.en.json
+[2025-10-24T07:38:36.589Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.34\package.nls.json
+[2025-10-24T07:38:36.597Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-24T07:38:36.599Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T08:08:09.240Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-28T08:08:09.243Z] info: 	Start app
+[2025-10-28T08:08:09.244Z] info: 	vscode.env.remoteName: undefined
+[2025-10-28T08:08:09.244Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-28T08:08:09.245Z] info: 	vscode.env.appHost: desktop
+[2025-10-28T08:08:09.245Z] info: 	vscode.env.appHost: undefined
+[2025-10-28T08:08:09.246Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.34\package.nls.en.json
+[2025-10-28T08:08:09.247Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.3.34\package.nls.json
+[2025-10-28T08:08:09.264Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T08:08:09.268Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:48:14.644Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-10-28T09:48:14.650Z] info: 	Start app
+[2025-10-28T09:48:14.651Z] info: 	vscode.env.remoteName: undefined
+[2025-10-28T09:48:14.653Z] info: 	vscode.env.uriScheme: vscode
+[2025-10-28T09:48:14.654Z] info: 	vscode.env.appHost: desktop
+[2025-10-28T09:48:14.655Z] info: 	vscode.env.appHost: undefined
+[2025-10-28T09:48:14.658Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.2\package.nls.en.json
+[2025-10-28T09:48:14.662Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.2\package.nls.json
+[2025-10-28T09:48:14.740Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T09:48:14.745Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true

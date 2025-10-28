@@ -1,0 +1,1 @@
+prod_obj|'KURS16|'kurs16|AUFG006|pgm'|rpgle|'KURS16/qrpglesrc/AUFG006.rpgle.pgm'

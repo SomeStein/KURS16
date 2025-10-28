@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-10-21 15:44:40.352180",
+  "compiles": [
+    {
+      "level": 1,
+      "sources": [
+        {
+          "source": "'KURS16/qrpglesrc/AUFG006.rpgle.pgm'",
+          "cmds": []
+        }
+      ]
+    }
+  ]
+}

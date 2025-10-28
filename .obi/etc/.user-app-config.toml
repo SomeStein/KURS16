@@ -1,0 +1,8 @@
+[connection]
+ssh-user = "KURS16"
+
+[general]
+source-dir = "src"
+check-remote-source-on-startup = false
+
+[global]

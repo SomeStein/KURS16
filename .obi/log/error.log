@@ -1,0 +1,13 @@
+[2025-10-21T12:40:09.230Z] error: 	STDERR: bash: line 1: cd: /home/KURS16/project1: No such file or directory
+[2025-10-21T12:40:09.232Z] error: 	bash: line 1: cd: /home/KURS16/project1: No such file or directory
+[2025-10-21T13:23:24.837Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-21T13:23:24.837Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-21T13:41:17.822Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-21T13:41:17.823Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-21T13:41:17.830Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-21T13:41:17.831Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-21T13:41:28.114Z] error: 	STDERR: ls: cannot access '/home/KURS16/project1/src': No such file or directory
+[2025-10-21T13:41:46.035Z] error: 	Transfer canceled by user
+[2025-10-21T13:44:11.802Z] error: 	STDERR: ls: cannot access '/home/KURS16/project1/src': No such file or directory
+[2025-10-21T13:44:44.149Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-21T13:44:44.151Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
