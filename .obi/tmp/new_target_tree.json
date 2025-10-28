@@ -3,29 +3,14 @@
     "level": 1,
     "sources": [
       {
-        "source": "KURS16/qrpglesrc/aufg006tst.rpgle.pgm",
-        "cmds": []
-      },
-      {
-        "source": "KURS16/qrpglesrc/aufg007.rpgle.pgm",
-        "cmds": []
-      },
-      {
         "source": "KURS16/qrpglesrc/logger.sqlrpgle.srvpgm",
         "cmds": []
-      },
-      {
-        "source": "KURS16/qrpglesrc/rechner.rpgle.pgm",
-        "cmds": []
-      },
-      {
-        "source": "KURS16/qrpglesrc/scanstr.rpgle.srvpgm",
-        "cmds": []
-      },
-      {
-        "source": "KURS16/qrpglesrc/test.rpgle.pgm",
-        "cmds": []
-      },
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "sources": [
       {
         "source": "KURS16/qrpglesrc/testlog.rpgle.pgm",
         "cmds": []

@@ -15,3 +15,35 @@
 [2025-10-28T11:48:44.463Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
 [2025-10-28T13:05:31.015Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
 [2025-10-28T13:05:31.020Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T13:53:07.414Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:53:07.415Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T13:53:26.787Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:53:26.788Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T13:54:37.405Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:54:37.406Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T13:55:55.219Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:55:55.221Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T13:56:42.602Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:56:42.602Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T13:56:59.430Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:56:59.432Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T13:57:13.187Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:57:13.188Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T14:04:21.889Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T14:04:21.889Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T14:04:29.904Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T14:04:29.904Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T14:11:46.067Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T14:11:46.067Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T14:12:16.299Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T14:12:16.299Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T14:15:06.219Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T14:15:06.219Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T14:15:17.322Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T14:15:17.324Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T14:16:13.729Z] error: 	System command failed: show_changes | exit-code: 1 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T14:16:13.729Z] error: 	System command failed: show_changes | exit-code: 1 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T14:17:23.603Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T14:17:23.603Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T14:17:30.347Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T14:17:30.347Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
