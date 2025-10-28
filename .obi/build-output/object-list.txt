@@ -1,4 +1,1 @@
-prod_obj|KURS16|kurs16|testlog|pgm|rpgle|KURS16/qrpglesrc/testlog.rpgle.pgm
-prod_obj|KURS16|kurs16|rechner|pgm|rpgle|KURS16/qrpglesrc/rechner.rpgle.pgm
-prod_obj|KURS16|kurs16|verbinder|pgm|rpgle|KURS16/qrpglesrc/verbinder.rpgle.pgm
-prod_obj|KURS16|kurs16|logger|pgm|sqlrpgle|KURS16/qrpglesrc/logger.sqlrpgle.pgm
+prod_obj|'KURS16|'kurs16|AUFG006|pgm'|rpgle|'KURS16/qrpglesrc/AUFG006.rpgle.pgm'

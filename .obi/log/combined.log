@@ -449,3 +449,880 @@ pwd 2: /home/KURS16
 [2025-10-28T09:52:16.668Z] info: 	onDidChangeSelection: [object Object]
 [2025-10-28T09:52:16.669Z] info: 	[object Object]
 [2025-10-28T09:52:58.838Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T09:58:33.530Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:00:00.262Z] info: 	Source: KURS16/qrpglesrc/AUFG006.rpgle.pgm
+[2025-10-28T10:00:00.263Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T10:00:00.264Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T10:00:00.265Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T10:00:00.266Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source="KURS16/qrpglesrc/AUFG006.rpgle.pgm"
+[2025-10-28T10:00:01.809Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source="KURS16/qrpglesrc/AUFG006.rpgle.pgm"'
+[2025-10-28T10:00:01.810Z] info: 	Render BuildSummary
+[2025-10-28T10:00:01.815Z] info: 	compile_list['new-objects']: 1
+[2025-10-28T10:00:01.815Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:00:01.856Z] info: 	compile_list['new-objects']: 1
+[2025-10-28T10:00:01.857Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:06:24.219Z] info: 	Collapse: [object Object]
+[2025-10-28T10:06:24.714Z] info: 	Expand: [object Object]
+[2025-10-28T10:06:25.506Z] info: 	Collapse: [object Object]
+[2025-10-28T10:06:25.903Z] info: 	Expand: [object Object]
+[2025-10-28T10:06:26.690Z] info: 	Collapse: [object Object]
+[2025-10-28T10:06:27.133Z] info: 	Expand: [object Object]
+[2025-10-28T10:06:29.524Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\KURS16.json
+[2025-10-28T10:06:38.630Z] info: 	onDidChangeSelection: [object Object]
+[2025-10-28T10:07:01.124Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T10:07:01.135Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T10:07:01.201Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T10:07:01.203Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-28T10:07:11.941Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T10:07:11.943Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T10:07:11.959Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T10:07:11.961Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-28T10:07:14.803Z] info: 	Expand: [object Object]
+[2025-10-28T10:07:15.834Z] info: 	Expand: [object Object]
+[2025-10-28T10:07:16.674Z] info: 	Expand: [object Object]
+[2025-10-28T10:07:31.700Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:20:48.898Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:27:43.738Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:28:14.693Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:28:29.289Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T10:28:29.290Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T10:28:29.291Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T10:28:29.292Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T10:28:30.219Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T10:28:30.220Z] info: 	Render BuildSummary
+[2025-10-28T10:28:30.225Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:28:30.225Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:28:30.253Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:28:30.254Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:28:51.016Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:30:09.853Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:30:11.465Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T10:30:11.466Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T10:30:11.467Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T10:30:11.468Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T10:30:12.321Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T10:30:12.322Z] info: 	Render BuildSummary
+[2025-10-28T10:30:12.329Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:30:12.330Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:30:13.860Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:30:13.861Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:30:15.651Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:30:15.652Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:30:22.196Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:30:22.197Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:30:30.936Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T10:30:30.937Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T10:30:30.938Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T10:30:30.939Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T10:30:31.785Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T10:30:31.786Z] info: 	Render BuildSummary
+[2025-10-28T10:30:31.794Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:30:31.794Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:30:40.778Z] info: 	Connected to 80.120.164.220
+[2025-10-28T10:30:40.779Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T10:30:41.175Z] info: 	CODE: 0
+[2025-10-28T10:30:41.175Z] info: 	STDOUT: project1
+[2025-10-28T10:30:41.176Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T10:30:41.414Z] info: 	CODE: 0
+[2025-10-28T10:30:41.415Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T10:30:41.416Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T10:30:41.683Z] info: 	CODE: 0
+[2025-10-28T10:30:41.684Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T10:30:41.685Z] info: 	Transfer files: KURS16/qrpglesrc/aufg001.rpgle.pgm,KURS16/qrpglesrc/aufg002.rpgle.pgm,KURS16/qrpglesrc/aufg003.rpgle.pgm,KURS16/qrpglesrc/aufg003ext.rpgle.pgm,KURS16/qrpglesrc/aufg004.rpgle.pgm,KURS16/qrpglesrc/aufg005.sqlrpgle.pgm,KURS16/qrpglesrc/aufg006.rpgle.pgm,KURS16/qrpglesrc/aufg006cpy.rpgle.pgm,KURS16/qrpglesrc/aufg006ext.rpgle.pgm,KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm,KURS16/qrpglesrc/aufg006tst.rpgle.pgm,KURS16/qrpglesrc/aufg007.rpgle.pgm,KURS16/qrpglesrc/logger.sqlrpgle.pgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T10:30:42.802Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T10:30:43.425Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T10:30:43.879Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T10:30:43.881Z] info: 	Finished transfer in 0.45549340000003574 seconds.
+[2025-10-28T10:30:43.882Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T10:30:48.641Z] info: 	CODE: 0
+[2025-10-28T10:30:48.642Z] info: 	STDOUT: 
+[2025-10-28T10:30:50.319Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T10:30:50.612Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T10:30:50.688Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T10:30:50.699Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T10:30:50.711Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:30:50.712Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:30:50.773Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:30:50.774Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T10:32:34.245Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:57:22.753Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T10:57:24.742Z] info: 	compile_list['new-objects']: 16
+[2025-10-28T10:57:24.743Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:00:48.557Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T11:00:48.559Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-28T11:01:08.700Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:01:28.143Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:01:30.892Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:01:30.892Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:01:30.894Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:01:30.895Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:01:31.769Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:01:31.771Z] info: 	Render BuildSummary
+[2025-10-28T11:01:31.777Z] info: 	compile_list['new-objects']: 5
+[2025-10-28T11:01:31.778Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:01:36.562Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:01:36.563Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:01:36.564Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:01:36.565Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:01:37.368Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:01:37.370Z] info: 	Render BuildSummary
+[2025-10-28T11:01:37.377Z] info: 	compile_list['new-objects']: 5
+[2025-10-28T11:01:37.377Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:01:41.723Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T11:01:41.925Z] info: 	CODE: 0
+[2025-10-28T11:01:41.926Z] info: 	STDOUT: project1
+[2025-10-28T11:01:41.927Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T11:01:42.108Z] info: 	CODE: 0
+[2025-10-28T11:01:42.108Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T11:01:42.112Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T11:01:42.590Z] info: 	CODE: 0
+[2025-10-28T11:01:42.590Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T11:01:42.591Z] info: 	Transfer files: KURS16/qrpglesrc/aufg007.rpgle.pgm,KURS16/qrpglesrc/logger.sqlrpgle.pgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T11:01:43.220Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T11:01:43.712Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T11:01:44.474Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T11:01:44.475Z] info: 	Finished transfer in 0.7626404999997467 seconds.
+[2025-10-28T11:01:44.477Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T11:01:45.940Z] info: 	CODE: 0
+[2025-10-28T11:01:45.941Z] info: 	STDOUT: 
+[2025-10-28T11:01:47.961Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json
+[2025-10-28T11:01:47.961Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T11:01:48.117Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T11:01:48.122Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T11:01:48.131Z] info: 	compile_list['new-objects']: 5
+[2025-10-28T11:01:48.131Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:01:48.162Z] info: 	compile_list['new-objects']: 5
+[2025-10-28T11:01:48.163Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:01:52.507Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:01:52.508Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:01:52.509Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:01:52.509Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:01:53.412Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:01:53.413Z] info: 	Render BuildSummary
+[2025-10-28T11:01:53.418Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:01:53.419Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:01:56.146Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:01:56.147Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:01:56.148Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:01:56.149Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:01:56.950Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:01:56.951Z] info: 	Render BuildSummary
+[2025-10-28T11:01:56.956Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:01:56.956Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:02:01.260Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T11:02:01.595Z] info: 	CODE: 0
+[2025-10-28T11:02:01.595Z] info: 	STDOUT: project1
+[2025-10-28T11:02:01.595Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T11:02:01.871Z] info: 	CODE: 0
+[2025-10-28T11:02:01.872Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T11:02:01.874Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T11:02:02.160Z] info: 	CODE: 0
+[2025-10-28T11:02:02.160Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T11:02:02.161Z] info: 	Transfer files: KURS16/qrpglesrc/logger.sqlrpgle.pgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T11:02:02.860Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T11:02:03.300Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T11:02:03.923Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json
+[2025-10-28T11:02:03.924Z] info: 	Finished transfer in 0.6236217000000179 seconds.
+[2025-10-28T11:02:03.926Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T11:02:04.920Z] info: 	CODE: 0
+[2025-10-28T11:02:04.921Z] info: 	STDOUT: 
+[2025-10-28T11:02:06.324Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T11:02:06.325Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T11:02:06.392Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T11:02:06.397Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T11:02:06.405Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:02:06.406Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:02:06.433Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:02:06.434Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:27:27.143Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:27:31.983Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:27:33.519Z] info: 	Source: KURS16/qrpglesrc/aufg003ext.rpgle.pgm
+[2025-10-28T11:27:33.521Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:27:33.523Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:27:33.525Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:27:33.526Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source="KURS16/qrpglesrc/aufg003ext.rpgle.pgm"
+[2025-10-28T11:27:34.372Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p . --source="KURS16/qrpglesrc/aufg003ext.rpgle.pgm"'
+[2025-10-28T11:27:34.374Z] info: 	Render BuildSummary
+[2025-10-28T11:27:34.378Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T11:27:34.379Z] info: 	compile_list['changed-sources']: 1
+[2025-10-28T11:31:24.321Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:31:25.391Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:31:26.047Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:31:31.916Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:48:14.109Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:48:14.110Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:48:14.110Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:48:14.111Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:48:15.099Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:48:15.100Z] info: 	Render BuildSummary
+[2025-10-28T11:48:15.104Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:48:15.105Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:48:15.124Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:48:15.124Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:48:27.035Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:48:27.036Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:48:27.038Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:48:27.040Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:48:28.817Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:48:28.818Z] info: 	Render BuildSummary
+[2025-10-28T11:48:28.824Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:48:28.825Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:48:35.278Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:48:35.279Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:48:41.240Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:48:41.240Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:48:44.404Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:48:44.405Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:48:44.407Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:48:44.408Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:48:44.433Z] info: 	Get changed sources
+[2025-10-28T11:48:44.435Z] info: 	Start retrieve_current_source_hashes
+[2025-10-28T11:48:44.440Z] info: 	Duration: 4.334400000050664 milliseconds
+[2025-10-28T11:48:44.440Z] info: 	Get checksum of sources
+[2025-10-28T11:48:44.447Z] info: 	In total 12 hash values. Duration: 7.2251999992877245
+[2025-10-28T11:48:44.448Z] info: 	1. It took 13.76340000052005 milliseconds.
+[2025-10-28T11:48:44.449Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T11:48:44.451Z] info: 	Check 12 sources
+[2025-10-28T11:48:44.455Z] info: 	Start check_source_change_item: It took 1.9313000002875924 milliseconds.
+[2025-10-28T11:48:44.457Z] info: 	Change check: It took 0.2776000006124377 milliseconds.
+[2025-10-28T11:48:44.460Z] info: 	new_sources: 4, changed-sources: 0
+[2025-10-28T11:48:44.460Z] info: 	2. It took 11.807699999772012 milliseconds.
+[2025-10-28T11:48:44.461Z] info: 	Get dependend sources
+[2025-10-28T11:48:44.461Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T11:48:44.462Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T11:48:44.463Z] debug: 	JSON content: 
+[2025-10-28T11:48:44.463Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T11:48:44.464Z] info: 	Clean dir
+[2025-10-28T11:48:44.466Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json
+[2025-10-28T11:48:44.468Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json
+[2025-10-28T11:48:45.387Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:48:45.388Z] info: 	Render BuildSummary
+[2025-10-28T11:48:45.394Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:48:45.395Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:48:45.800Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T11:48:46.049Z] info: 	CODE: 0
+[2025-10-28T11:48:46.049Z] info: 	STDOUT: project1
+[2025-10-28T11:48:46.050Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T11:48:46.285Z] info: 	CODE: 0
+[2025-10-28T11:48:46.285Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T11:48:46.288Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T11:48:46.817Z] info: 	CODE: 0
+[2025-10-28T11:48:46.817Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T11:48:46.821Z] info: 	Transfer files: KURS16/qrpglesrc/logger.sqlrpgle.pgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T11:48:47.815Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:48:47.816Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:48:47.817Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:48:48.628Z] debug: 	System command succeeded: generate_build_script | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:48:48.628Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T11:48:49.115Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T11:48:49.932Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json
+[2025-10-28T11:48:49.933Z] info: 	Finished transfer in 0.8176044000005349 seconds.
+[2025-10-28T11:48:49.934Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T11:48:51.022Z] info: 	CODE: 0
+[2025-10-28T11:48:51.023Z] info: 	STDOUT: 
+[2025-10-28T11:48:53.531Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T11:48:53.579Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T11:48:53.657Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json
+[2025-10-28T11:48:53.663Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T11:48:53.665Z] info: 	Render BuildSummary
+[2025-10-28T11:48:53.677Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T11:48:53.678Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:49:44.566Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:49:58.977Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:50:00.803Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:50:00.804Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:50:00.805Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:50:00.806Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:50:01.587Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:50:01.588Z] info: 	Render BuildSummary
+[2025-10-28T11:50:01.595Z] info: 	compile_list['new-objects']: 3
+[2025-10-28T11:50:01.595Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T11:50:14.044Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T11:50:14.046Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-28T11:50:21.034Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:51:12.691Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T11:51:14.275Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:51:14.277Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T11:51:14.278Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T11:51:14.279Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T11:51:15.045Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T11:51:15.046Z] info: 	Render BuildSummary
+[2025-10-28T11:51:15.051Z] info: 	compile_list['new-objects']: 3
+[2025-10-28T11:51:15.052Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:20:55.019Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:21:14.346Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:21:15.710Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:21:15.711Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T12:21:15.711Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:21:15.713Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T12:21:16.544Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T12:21:16.544Z] info: 	Render BuildSummary
+[2025-10-28T12:21:16.552Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:21:16.552Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:22:36.432Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:28:38.681Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:28:40.198Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:28:40.199Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T12:28:40.199Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:28:40.200Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T12:28:41.073Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T12:28:41.074Z] info: 	Render BuildSummary
+[2025-10-28T12:28:41.078Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:28:41.079Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:29:08.169Z] info: 	Connected to 80.120.164.220
+[2025-10-28T12:29:08.170Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:29:08.384Z] info: 	CODE: 0
+[2025-10-28T12:29:08.384Z] info: 	STDOUT: project1
+[2025-10-28T12:29:08.386Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:29:08.758Z] info: 	CODE: 0
+[2025-10-28T12:29:08.758Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:29:08.760Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:29:09.110Z] info: 	CODE: 0
+[2025-10-28T12:29:09.110Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:29:09.111Z] info: 	Transfer files: KURS16/qrpglesrc/logger.sqlrpgle.pgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T12:29:09.850Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:29:10.419Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:29:11.092Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:29:11.093Z] info: 	Finished transfer in 0.6729912999998778 seconds.
+[2025-10-28T12:29:11.096Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:29:12.070Z] info: 	CODE: 0
+[2025-10-28T12:29:12.070Z] info: 	STDOUT: 
+[2025-10-28T12:29:13.450Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:29:13.510Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T12:29:13.510Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:29:13.515Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:29:13.523Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:29:13.523Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:29:13.551Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:29:13.551Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:29:45.202Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:30:02.051Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:30:03.300Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:30:03.301Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T12:30:03.302Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:30:03.303Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T12:30:04.095Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T12:30:04.096Z] info: 	Render BuildSummary
+[2025-10-28T12:30:04.100Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:30:04.100Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:30:04.121Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:30:04.122Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:30:10.400Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:30:10.400Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:30:10.431Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:30:10.436Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:30:17.657Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:30:17.894Z] info: 	CODE: 0
+[2025-10-28T12:30:17.894Z] info: 	STDOUT: project1
+[2025-10-28T12:30:17.895Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:30:18.137Z] info: 	CODE: 0
+[2025-10-28T12:30:18.138Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:30:18.140Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:30:18.464Z] info: 	CODE: 0
+[2025-10-28T12:30:18.464Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:30:18.465Z] info: 	Transfer files: KURS16/qrpglesrc/logger.sqlrpgle.srvpgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T12:30:19.194Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:30:20.065Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:30:20.699Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:30:20.700Z] info: 	Finished transfer in 0.6355844999998808 seconds.
+[2025-10-28T12:30:20.704Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:30:21.699Z] info: 	CODE: 0
+[2025-10-28T12:30:21.699Z] info: 	STDOUT: 
+[2025-10-28T12:30:23.664Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json
+[2025-10-28T12:30:23.770Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:30:23.787Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T12:30:23.791Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:30:23.797Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:30:23.798Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:30:23.827Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:30:23.828Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:33:28.508Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.518Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.525Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.536Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.547Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.554Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.562Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.577Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.584Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.591Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.599Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.606Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.615Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.624Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.632Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.640Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.726Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.736Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.746Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.756Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.777Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.784Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.793Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.800Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.809Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.818Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.826Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.834Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.843Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.853Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.861Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.868Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.879Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.890Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.900Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.908Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.915Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.924Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.931Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.938Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.945Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:28.950Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:38.428Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:38.428Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T12:33:38.429Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:33:38.430Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T12:33:39.330Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T12:33:39.331Z] info: 	Render BuildSummary
+[2025-10-28T12:33:39.334Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:33:39.335Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:33:39.352Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:33:39.353Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:33:42.963Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:33:43.216Z] info: 	CODE: 0
+[2025-10-28T12:33:43.217Z] info: 	STDOUT: project1
+[2025-10-28T12:33:43.218Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:33:43.590Z] info: 	CODE: 0
+[2025-10-28T12:33:43.591Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:33:43.591Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:33:43.927Z] info: 	CODE: 0
+[2025-10-28T12:33:43.928Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:33:43.931Z] info: 	Transfer files: KURS16/qrpglesrc/logger.sqlrpgle.srvpgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T12:33:44.578Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:33:45.107Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:33:45.829Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:33:45.830Z] info: 	Finished transfer in 0.7227245000004768 seconds.
+[2025-10-28T12:33:45.831Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:33:46.898Z] info: 	CODE: 0
+[2025-10-28T12:33:46.899Z] info: 	STDOUT: 
+[2025-10-28T12:33:48.309Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:33:48.325Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:33:48.351Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T12:33:48.354Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:33:48.362Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:33:48.362Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:33:48.390Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:33:48.391Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:38:51.715Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:38:52.138Z] info: 	CODE: 0
+[2025-10-28T12:38:52.138Z] info: 	STDOUT: project1
+[2025-10-28T12:38:52.139Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:38:52.408Z] info: 	CODE: 0
+[2025-10-28T12:38:52.411Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:38:52.414Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:38:52.969Z] info: 	CODE: 0
+[2025-10-28T12:38:52.970Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:38:52.970Z] info: 	Transfer files: KURS16/qrpglesrc/logger.sqlrpgle.srvpgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T12:38:54.542Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:38:55.581Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:38:56.497Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:38:56.498Z] info: 	Finished transfer in 0.9169254000000656 seconds.
+[2025-10-28T12:38:56.499Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:38:57.784Z] info: 	CODE: 0
+[2025-10-28T12:38:57.784Z] info: 	STDOUT: 
+[2025-10-28T12:39:00.381Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:39:00.465Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:39:00.503Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T12:39:00.506Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:39:00.515Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:39:00.515Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:39:00.540Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:39:00.541Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:42:36.454Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:43:03.149Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:43:03.459Z] info: 	CODE: 0
+[2025-10-28T12:43:03.459Z] info: 	STDOUT: project1
+[2025-10-28T12:43:03.460Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:43:03.729Z] info: 	CODE: 0
+[2025-10-28T12:43:03.730Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:43:03.733Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:43:04.178Z] info: 	CODE: 0
+[2025-10-28T12:43:04.179Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:43:04.180Z] info: 	Transfer files: KURS16/qrpglesrc/logger.sqlrpgle.srvpgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T12:43:04.964Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:43:05.746Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:43:06.496Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json
+[2025-10-28T12:43:06.497Z] info: 	Finished transfer in 0.7509104999992996 seconds.
+[2025-10-28T12:43:06.498Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:43:08.335Z] info: 	CODE: 0
+[2025-10-28T12:43:08.335Z] info: 	STDOUT: 
+[2025-10-28T12:43:09.901Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json
+[2025-10-28T12:43:09.970Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T12:43:09.971Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:43:09.975Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:43:09.984Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:43:09.984Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:43:10.013Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:43:10.014Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:48:21.870Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:48:22.498Z] info: 	CODE: 0
+[2025-10-28T12:48:22.499Z] info: 	STDOUT: project1
+[2025-10-28T12:48:22.500Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:48:22.726Z] info: 	CODE: 0
+[2025-10-28T12:48:22.726Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:48:22.727Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:48:23.012Z] info: 	CODE: 0
+[2025-10-28T12:48:23.012Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:48:23.015Z] info: 	Transfer files: KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.pgm
+[2025-10-28T12:48:23.701Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:48:24.746Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:48:25.326Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:48:25.327Z] info: 	Finished transfer in 0.5801530000008642 seconds.
+[2025-10-28T12:48:25.329Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:48:26.982Z] info: 	CODE: 0
+[2025-10-28T12:48:26.983Z] info: 	STDOUT: 
+[2025-10-28T12:48:29.199Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:48:29.287Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:48:29.342Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json
+[2025-10-28T12:48:29.347Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:48:29.357Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:48:29.358Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:48:29.390Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:48:29.390Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:49:17.653Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:49:17.654Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:49:17.700Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:49:17.701Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:49:19.593Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:49:20.666Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:49:20.667Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T12:49:20.669Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:49:20.670Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T12:49:21.603Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T12:49:21.604Z] info: 	Render BuildSummary
+[2025-10-28T12:49:21.609Z] info: 	compile_list['new-objects']: 1
+[2025-10-28T12:49:21.609Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:49:24.506Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:49:24.739Z] info: 	CODE: 0
+[2025-10-28T12:49:24.740Z] info: 	STDOUT: project1
+[2025-10-28T12:49:24.740Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:49:24.935Z] info: 	CODE: 0
+[2025-10-28T12:49:24.936Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:49:24.937Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:49:25.200Z] info: 	CODE: 0
+[2025-10-28T12:49:25.201Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:49:25.202Z] info: 	Transfer files: KURS16/qrpglesrc/verbinder.rpgle.srvpgm
+[2025-10-28T12:49:25.730Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:49:26.181Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:49:26.743Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:49:26.744Z] info: 	Finished transfer in 0.5630055999998004 seconds.
+[2025-10-28T12:49:26.745Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:49:27.842Z] info: 	CODE: 0
+[2025-10-28T12:49:27.842Z] info: 	STDOUT: 
+[2025-10-28T12:49:28.858Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:49:28.858Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:49:28.935Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T12:49:28.939Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:49:28.945Z] info: 	compile_list['new-objects']: 1
+[2025-10-28T12:49:28.945Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:49:28.965Z] info: 	compile_list['new-objects']: 1
+[2025-10-28T12:49:28.969Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:49:38.678Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:55:52.477Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T12:55:54.217Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:55:54.218Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T12:55:54.219Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:55:54.220Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T12:55:55.104Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T12:55:55.105Z] info: 	Render BuildSummary
+[2025-10-28T12:55:55.112Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:55:55.112Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:56:00.849Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:56:01.153Z] info: 	CODE: 0
+[2025-10-28T12:56:01.154Z] info: 	STDOUT: project1
+[2025-10-28T12:56:01.154Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:56:01.395Z] info: 	CODE: 0
+[2025-10-28T12:56:01.396Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:56:01.397Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:56:01.739Z] info: 	CODE: 0
+[2025-10-28T12:56:01.739Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:56:01.742Z] info: 	Transfer files: KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm,KURS16/qrpglesrc/aufg006tst.rpgle.pgm,KURS16/qrpglesrc/scanstr.rpgle.pgm,KURS16/qrpglesrc/test.rpgle.pgm
+[2025-10-28T12:56:02.741Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:56:03.340Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:56:04.245Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:56:04.246Z] info: 	Finished transfer in 0.9061049000006169 seconds.
+[2025-10-28T12:56:04.248Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:56:05.257Z] info: 	CODE: 0
+[2025-10-28T12:56:05.258Z] info: 	STDOUT: 
+[2025-10-28T12:56:07.598Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:56:07.674Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json
+[2025-10-28T12:56:07.674Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json
+[2025-10-28T12:56:07.676Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:56:07.682Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:56:07.682Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:56:07.702Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:56:07.703Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:58:17.392Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:58:17.393Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T12:58:17.394Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T12:58:17.395Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T12:58:18.240Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T12:58:18.241Z] info: 	Render BuildSummary
+[2025-10-28T12:58:18.247Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:58:18.248Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:58:30.497Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T12:58:30.711Z] info: 	CODE: 0
+[2025-10-28T12:58:30.712Z] info: 	STDOUT: project1
+[2025-10-28T12:58:30.712Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T12:58:30.914Z] info: 	CODE: 0
+[2025-10-28T12:58:30.915Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T12:58:30.915Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T12:58:31.208Z] info: 	CODE: 0
+[2025-10-28T12:58:31.209Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T12:58:31.211Z] info: 	Transfer files: KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm,KURS16/qrpglesrc/aufg006tst.rpgle.pgm,KURS16/qrpglesrc/scanstr.rpgle.pgm,KURS16/qrpglesrc/test.rpgle.pgm
+[2025-10-28T12:58:32.018Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T12:58:32.653Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T12:58:33.331Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T12:58:33.332Z] info: 	Finished transfer in 0.6788804999999702 seconds.
+[2025-10-28T12:58:33.334Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T12:58:35.317Z] info: 	CODE: 0
+[2025-10-28T12:58:35.318Z] info: 	STDOUT: 
+[2025-10-28T12:58:37.128Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T12:58:37.621Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json
+[2025-10-28T12:58:38.009Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T12:58:38.013Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T12:58:38.021Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:58:38.021Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:58:38.051Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T12:58:38.052Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T12:59:36.031Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T13:02:28.538Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T13:02:28.870Z] info: 	CODE: 0
+[2025-10-28T13:02:28.870Z] info: 	STDOUT: project1
+[2025-10-28T13:02:28.871Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T13:02:29.161Z] info: 	CODE: 0
+[2025-10-28T13:02:29.161Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T13:02:29.162Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T13:02:29.491Z] info: 	CODE: 0
+[2025-10-28T13:02:29.492Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T13:02:29.495Z] info: 	Transfer files: KURS16/qrpglesrc/scanstr.rpgle.pgm,KURS16/qrpglesrc/test.rpgle.pgm
+[2025-10-28T13:02:30.081Z] info: 	compile_list['new-objects']: 4
+[2025-10-28T13:02:30.082Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T13:02:39.744Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T13:02:41.471Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T13:02:41.472Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T13:02:41.473Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T13:02:41.473Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T13:02:42.317Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T13:02:42.318Z] info: 	Render BuildSummary
+[2025-10-28T13:02:42.322Z] info: 	compile_list['new-objects']: 2
+[2025-10-28T13:02:42.322Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T13:02:45.771Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T13:02:46.078Z] info: 	CODE: 0
+[2025-10-28T13:02:46.079Z] info: 	STDOUT: project1
+[2025-10-28T13:02:46.079Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T13:02:46.374Z] info: 	CODE: 0
+[2025-10-28T13:02:46.375Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T13:02:46.379Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T13:02:46.870Z] info: 	CODE: 0
+[2025-10-28T13:02:46.870Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T13:02:46.871Z] info: 	Transfer files: KURS16/qrpglesrc/scanstr.rpgle.srvpgm,KURS16/qrpglesrc/test.rpgle.pgm
+[2025-10-28T13:02:48.129Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T13:02:49.140Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T13:02:50.391Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T13:02:50.395Z] info: 	Finished transfer in 1.252059299999848 seconds.
+[2025-10-28T13:02:50.396Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T13:02:51.909Z] info: 	CODE: 0
+[2025-10-28T13:02:51.911Z] info: 	STDOUT: 
+[2025-10-28T13:02:53.834Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T13:02:53.934Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T13:02:53.935Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T13:02:53.938Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T13:02:53.945Z] info: 	compile_list['new-objects']: 2
+[2025-10-28T13:02:53.946Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T13:02:53.971Z] info: 	compile_list['new-objects']: 2
+[2025-10-28T13:02:53.972Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T13:05:18.272Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T13:05:18.274Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T13:05:18.277Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T13:05:18.279Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T13:05:19.225Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T13:05:19.225Z] info: 	Render BuildSummary
+[2025-10-28T13:05:19.229Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:05:19.231Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T13:05:19.249Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:05:19.250Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T13:05:30.967Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T13:05:30.968Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T13:05:30.969Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T13:05:30.969Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T13:05:30.993Z] info: 	Get changed sources
+[2025-10-28T13:05:30.993Z] info: 	Start retrieve_current_source_hashes
+[2025-10-28T13:05:30.999Z] info: 	Duration: 5.384899999946356 milliseconds
+[2025-10-28T13:05:30.999Z] info: 	Get checksum of sources
+[2025-10-28T13:05:31.007Z] info: 	In total 17 hash values. Duration: 7.445599999278784
+[2025-10-28T13:05:31.008Z] info: 	1. It took 14.421299999579787 milliseconds.
+[2025-10-28T13:05:31.008Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T13:05:31.010Z] info: 	Check 17 sources
+[2025-10-28T13:05:31.010Z] info: 	Start check_source_change_item: It took 0.13079999946057796 milliseconds.
+[2025-10-28T13:05:31.011Z] info: 	Change check: It took 0.2476000003516674 milliseconds.
+[2025-10-28T13:05:31.011Z] info: 	new_sources: 0, changed-sources: 0
+[2025-10-28T13:05:31.012Z] info: 	2. It took 4.291999999433756 milliseconds.
+[2025-10-28T13:05:31.013Z] info: 	Get dependend sources
+[2025-10-28T13:05:31.013Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:05:31.015Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-10-28T13:05:31.019Z] debug: 	JSON content: 
+[2025-10-28T13:05:31.020Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-10-28T13:05:31.021Z] info: 	Clean dir
+[2025-10-28T13:05:31.023Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json
+[2025-10-28T13:05:31.025Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json
+[2025-10-28T13:05:31.029Z] info: 	Render BuildSummary
+[2025-10-28T13:05:31.035Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:05:31.035Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T13:05:31.956Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T13:05:31.956Z] info: 	Render BuildSummary
+[2025-10-28T13:05:31.960Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:05:31.960Z] info: 	compile_list['changed-sources']: 0
+[2025-10-28T13:05:36.534Z] info: 	Collapse: [object Object]
+[2025-10-28T13:05:37.130Z] info: 	Expand: [object Object]
+[2025-10-28T13:05:39.751Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-10-28T13:05:39.753Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-10-28T13:05:42.190Z] info: 	Collapse: [object Object]
+[2025-10-28T13:05:49.687Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T13:22:05.662Z] info: 	ChangeVisibility: [object Object]
+[2025-10-28T13:22:09.984Z] info: 	Start retrieve_current_source_hashes
+[2025-10-28T13:22:09.987Z] info: 	Duration: 2.8674999997019768 milliseconds
+[2025-10-28T13:22:09.988Z] info: 	Get checksum of sources
+[2025-10-28T13:22:09.994Z] info: 	In total 17 hash values. Duration: 6.448100000619888
+[2025-10-28T13:22:18.319Z] info: 	Get remote file. LOCAL: c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json, REMOTE: /home/KURS16/project1/.obi/etc/object-builds.json
+[2025-10-28T13:22:25.229Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T13:22:25.230Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-10-28T13:22:25.231Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-10-28T13:22:25.232Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-10-28T13:22:26.159Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-10-28T13:22:26.160Z] info: 	Render BuildSummary
+[2025-10-28T13:22:26.166Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:22:26.167Z] info: 	compile_list['changed-sources']: 17
+[2025-10-28T13:22:31.168Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T13:22:31.577Z] info: 	CODE: 0
+[2025-10-28T13:22:31.577Z] info: 	STDOUT: project1
+[2025-10-28T13:22:31.578Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T13:22:32.153Z] info: 	CODE: 0
+[2025-10-28T13:22:32.154Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T13:22:32.156Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T13:22:32.550Z] info: 	CODE: 0
+[2025-10-28T13:22:32.550Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T13:22:32.551Z] info: 	Transfer files: KURS16/qrpglesrc/aufg001.rpgle.pgm,KURS16/qrpglesrc/aufg002.rpgle.pgm,KURS16/qrpglesrc/aufg003.rpgle.pgm,KURS16/qrpglesrc/aufg003ext.rpgle.pgm,KURS16/qrpglesrc/aufg004.rpgle.pgm,KURS16/qrpglesrc/aufg005.sqlrpgle.pgm,KURS16/qrpglesrc/aufg006.rpgle.pgm,KURS16/qrpglesrc/aufg006ext.rpgle.pgm,KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm,KURS16/qrpglesrc/aufg006tst.rpgle.pgm,KURS16/qrpglesrc/aufg007.rpgle.pgm,KURS16/qrpglesrc/logger.sqlrpgle.srvpgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/scanstr.rpgle.srvpgm,KURS16/qrpglesrc/test.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.srvpgm
+[2025-10-28T13:22:33.909Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T13:22:34.338Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T13:22:34.875Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T13:22:34.877Z] info: 	Finished transfer in 0.5386691999994219 seconds.
+[2025-10-28T13:22:34.878Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T13:22:39.299Z] info: 	CODE: 0
+[2025-10-28T13:22:39.299Z] info: 	STDOUT: 
+[2025-10-28T13:22:41.110Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T13:22:41.266Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T13:22:41.476Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T13:22:41.485Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T13:22:41.497Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:22:41.497Z] info: 	compile_list['changed-sources']: 17
+[2025-10-28T13:22:41.539Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:22:41.540Z] info: 	compile_list['changed-sources']: 17
+[2025-10-28T13:24:49.557Z] info: 	Check path:  ls "/home/$USER"
+[2025-10-28T13:24:49.785Z] info: 	CODE: 0
+[2025-10-28T13:24:49.786Z] info: 	STDOUT: project1
+[2025-10-28T13:24:49.786Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-10-28T13:24:50.023Z] info: 	CODE: 0
+[2025-10-28T13:24:50.023Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-10-28T13:24:50.024Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T13:24:50.347Z] info: 	CODE: 0
+[2025-10-28T13:24:50.347Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T13:24:50.350Z] info: 	Transfer files: KURS16/qrpglesrc/aufg006ext.rpgle.pgm,KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm,KURS16/qrpglesrc/aufg006tst.rpgle.pgm,KURS16/qrpglesrc/aufg007.rpgle.pgm,KURS16/qrpglesrc/logger.sqlrpgle.srvpgm,KURS16/qrpglesrc/rechner.rpgle.pgm,KURS16/qrpglesrc/scanstr.rpgle.srvpgm,KURS16/qrpglesrc/test.rpgle.pgm,KURS16/qrpglesrc/testlog.rpgle.pgm,KURS16/qrpglesrc/verbinder.rpgle.srvpgm
+[2025-10-28T13:24:51.299Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-10-28T13:24:52.498Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-10-28T13:24:53.020Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json
+[2025-10-28T13:24:53.021Z] info: 	Finished transfer in 0.5228814999982715 seconds.
+[2025-10-28T13:24:53.021Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-10-28T13:24:54.230Z] info: 	CODE: 0
+[2025-10-28T13:24:54.230Z] info: 	STDOUT: 
+[2025-10-28T13:24:56.361Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-10-28T13:24:56.779Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-10-28T13:24:56.817Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log
+[2025-10-28T13:24:56.823Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-10-28T13:24:56.836Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:24:56.836Z] info: 	compile_list['changed-sources']: 17
+[2025-10-28T13:24:56.879Z] info: 	compile_list['new-objects']: 0
+[2025-10-28T13:24:56.880Z] info: 	compile_list['changed-sources']: 17
+[2025-10-28T13:26:13.819Z] info: 	Transfer: .obi/etc/app-config.toml,.obi/etc/.user-app-config.toml
+[2025-10-28T13:26:14.340Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2>/dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a gen_src_list -p .'
+[2025-10-28T13:26:14.775Z] info: 	CODE: 0
+[2025-10-28T13:26:14.776Z] info: 	STDOUT: 
+[2025-10-28T13:26:14.776Z] info: 	Get remote file. LOCAL: c:\Users\AaronPumm\git\KURS16\.obi\etc\source-list-remote.json, REMOTE: /home/KURS16/project1/.obi/etc/source-list-local.json
+[2025-10-28T13:26:17.882Z] info: 	Get remote file. LOCAL: c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json, REMOTE: /home/KURS16/project1/.obi/etc/object-builds.json
+[2025-10-28T13:26:22.450Z] info: 	Start retrieve_current_source_hashes
+[2025-10-28T13:26:22.454Z] info: 	Duration: 3.4595999997109175 milliseconds
+[2025-10-28T13:26:22.455Z] info: 	Get checksum of sources
+[2025-10-28T13:26:22.461Z] info: 	In total 17 hash values. Duration: 6.272700000554323
+[2025-10-28T13:26:26.559Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-10-28T13:26:27.040Z] info: 	CODE: 0
+[2025-10-28T13:26:27.041Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-10-28T13:26:27.041Z] info: 	Transfer: .obi/etc/app-config.toml,.obi/etc/.user-app-config.toml
+[2025-10-28T13:26:27.536Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2>/dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a gen_src_list -p .'
+[2025-10-28T13:26:27.992Z] info: 	CODE: 0
+[2025-10-28T13:26:27.992Z] info: 	STDOUT: 
+[2025-10-28T13:26:27.993Z] info: 	Get remote file. LOCAL: c:\Users\AaronPumm\git\KURS16\.obi\etc\source-list-remote.json, REMOTE: /home/KURS16/project1/.obi/etc/source-list-local.json
+[2025-10-28T13:26:28.536Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-list-remote.json
+[2025-10-28T13:26:28.538Z] info: 	Start retrieve_current_source_hashes
+[2025-10-28T13:26:28.540Z] info: 	Duration: 2.272799998521805 milliseconds
+[2025-10-28T13:26:28.541Z] info: 	Get checksum of sources
+[2025-10-28T13:26:28.547Z] info: 	In total 17 hash values. Duration: 6.131999999284744
+[2025-10-28T13:26:28.548Z] info: 	Check 17 sources
+[2025-10-28T13:26:28.548Z] info: 	Start check_source_change_item: It took 0.07069999910891056 milliseconds.
+[2025-10-28T13:26:28.548Z] info: 	Change check: It took 0.13509999960660934 milliseconds.
+[2025-10-28T13:26:28.549Z] info: 	new_sources: 1, changed-sources: 0
+[2025-10-28T13:26:37.556Z] info: 	Transfer files: KURS16/qrpglesrc/aufg006.rpgle.pgm
+[2025-10-28T13:26:48.621Z] info: 	Execute cmd: bash -c 'cd /home/KURS16/project1 2> /dev/null || mkdir -p /home/KURS16/project1 && cd /home/KURS16/project1 && echo "pwd: $(pwd)" || exit 1; [ `echo $(pwd) | wc -c` -ge 3 ] &&  echo "Current dir: $(pwd)" ||  exit 1  ;  echo "Change back from $(pwd)" &&  cd  && echo "pwd 2: $(pwd)" && rm -rf /home/KURS16/project1'
+[2025-10-28T13:26:49.273Z] info: 	CODE: 0
+[2025-10-28T13:26:49.273Z] info: 	STDOUT: pwd: /home/KURS16/project1
+Current dir: /home/KURS16/project1
+Change back from /home/KURS16/project1
+pwd 2: /home/KURS16
+[2025-10-28T13:26:49.274Z] info: 	Finished cleanup: true
+[2025-10-28T13:26:49.274Z] info: 	Transer local dir c:\Users\AaronPumm\git\KURS16 to /home/KURS16/project1
+[2025-10-28T13:26:49.275Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16, remote: /home/KURS16/project1

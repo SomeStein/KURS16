@@ -1,0 +1,15 @@
+**free
+
+dcl-s test1 varchar(100);
+dcl-s test2 char(10);
+
+dcl-s output varchar(52) inz;
+
+test1 = 'Hallo';
+test2 = 'Welt';
+
+output = %subst(test1 + ' ' + test2 : 1: 52);
+
+dsply output;
+
+*inlr = *on;

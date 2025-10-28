@@ -1,6 +1,9 @@
 {
-  "KURS16/qrpglesrc/logger.sqlrpgle.pgm": {},
+  "KURS16/qrpglesrc/aufg006tst.rpgle.pgm": {},
+  "KURS16/qrpglesrc/aufg007.rpgle.pgm": {},
+  "KURS16/qrpglesrc/logger.sqlrpgle.srvpgm": {},
   "KURS16/qrpglesrc/rechner.rpgle.pgm": {},
-  "KURS16/qrpglesrc/testlog.rpgle.pgm": {},
-  "KURS16/qrpglesrc/verbinder.rpgle.pgm": {}
+  "KURS16/qrpglesrc/scanstr.rpgle.srvpgm": {},
+  "KURS16/qrpglesrc/test.rpgle.pgm": {},
+  "KURS16/qrpglesrc/testlog.rpgle.pgm": {}
 }

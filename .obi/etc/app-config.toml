@@ -31,6 +31,7 @@ TGTCCSID = "*JOB"
 STGMDL = "*SNGLVL"
 ACTGRP = "*CALLER"
 LIBL = [ "$(TARGET_LIB)", "QGPL" ]
+INCLUDE_BNDDIR = "BNDDIR"
 
 [global.settings.language]
 [global.settings.language."sqlrpgle.srvpgm"]

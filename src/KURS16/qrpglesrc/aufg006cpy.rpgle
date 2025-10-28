@@ -1,0 +1,87 @@
+**free
+
+ctl-opt main(AUFG006CPY) dftactgrp(*no) actgrp(*caller);
+
+/Include QPTTSRC,AUFG006
+
+// MAIN PROGRAMM (ENTRY POINT with input char(30))
+dcl-proc AUFG006CPY;
+
+  dcl-pi *n;
+    input char(30) const options(*nopass);
+  end-pi;
+
+  if %parms = 0;
+    dsply 'Keine Eingabe übergeben.';
+    return;
+  endif;
+
+  dsply 'AUFG006 gestartet';
+  dsply ('Eingabe: ' + input);
+  dsply ('Ergebnis: ' + %char(convert(input)));
+  dsply '______________________________';
+end-proc;
+
+// CONVERT PROCEDURE (CLEANING AND CONVERTING CHAR(30) TO PACKED(30:9))
+dcl-proc convert;
+
+  // constants
+  dcl-c TOTAL_LEN const(30);
+  dcl-c DECIMAL_LEN const(9);
+  dcl-c DIGITS const('0123456789');
+
+  // interface
+  dcl-pi *n packed(TOTAL_LEN: DECIMAL_LEN);
+    input char(TOTAL_LEN) const;
+  end-pi;
+
+  // loop variables
+  dcl-s trimmedInput varchar(TOTAL_LEN) inz('');
+  dcl-s i int(5) inz(0);
+  dcl-s currentChar char(1) inz(' ');
+  dcl-s isDecimalPart ind inz(*off);
+
+  // result variables
+  dcl-s sign char(1) inz('+');
+  dcl-s decimalPart varchar(TOTAL_LEN) inz('');
+  dcl-s integerPart varchar(TOTAL_LEN) inz('');
+
+  // cleaning data
+  trimmedInput = %trim(input);
+  for i = 1 to %len(trimmedInput);
+    currentChar = %subst(trimmedInput: i: 1);
+
+    // sign
+    if currentChar = '-' and (i = 1 or i = %len(trimmedInput));
+      sign = '-';
+    endif;
+
+    // decimal point
+    if currentChar = ',';
+      isDecimalPart = *on;
+    endif;
+
+    // digits
+    if %scan(currentChar: DIGITS) > 0;
+      if isDecimalPart;
+        decimalPart += currentChar;
+      else;
+        integerPart += currentChar;
+      endif;
+    endif;
+  endfor;
+
+  // ensure at least one digit
+  if %len(decimalPart) = 0 and %len(integerPart) = 0;
+    decimalPart = '0';
+  endif;
+
+  // limit integer part length
+  if %len(integerPart) > TOTAL_LEN - DECIMAL_LEN;
+    integerPart = %subst(integerPart: %len(integerPart) - TOTAL_LEN + DECIMAL_LEN + 1);
+  endif;
+
+  // convert to packed decimal
+  return %dec(sign + integerPart + '.' + decimalPart: TOTAL_LEN: DECIMAL_LEN);
+
+end-proc;
