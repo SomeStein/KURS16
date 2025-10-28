@@ -1,0 +1,27 @@
+**free
+
+ctl-opt main(AUFG006EXT) bnddir('BNDDIR');
+
+/Include QPTTSRC,AUFG006
+
+
+// MAIN PROGRAMM (ENTRY POINT with parameter char(30))
+dcl-proc AUFG006EXT;
+
+  dcl-pi *n;
+    input char(30) const;
+  end-pi;
+
+  dcl-s result packed(30:9);
+
+  dsply 'AUFG006EXT gestartet';
+  dsply ('Eingabe: ' + input);
+
+  result = convert(input);
+  dsply ('Ergebnis: ' + %char(result));
+  dsply '______________________________';
+
+  *inlr = *on;
+
+end-proc;
+

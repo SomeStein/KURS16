@@ -1,29 +1,11 @@
 **free
 
-ctl-opt main(AUFG006) dftactgrp(*no) actgrp(*caller);
+ctl-opt nomain;
 
 /Include QPTTSRC,AUFG006
 
-// MAIN PROGRAMM (ENTRY POINT with input char(30))
-dcl-proc AUFG006;
-
-  dcl-pi *n;
-    input char(30) const options(*nopass);
-  end-pi;
-
-  if %parms = 0;
-    dsply 'Keine Eingabe übergeben.';
-    return;
-  endif;
-
-  dsply 'AUFG006 gestartet';
-  dsply ('Eingabe: ' + input);
-  dsply ('Ergebnis: ' + %char(convert(input)));
-  dsply '______________________________';
-end-proc;
-
-// CONVERT PROCEDURE (CLEANING AND CONVERTING CHAR(30) TO PACKED(30:9))
-dcl-proc convert;
+// CONVERT PROCEDURE (CLEANING AND CONVERTING CHAR(30) TO PACKED DECIMAL 30:9)
+dcl-proc convert export;
 
   // constants
   dcl-c TOTAL_LEN const(30);

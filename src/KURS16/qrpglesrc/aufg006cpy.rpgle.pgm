@@ -1,11 +1,11 @@
 **free
 
-ctl-opt main(AUFG006) dftactgrp(*no) actgrp(*caller);
+ctl-opt main(AUFG006CPY) dftactgrp(*no) actgrp(*caller);
 
 /Include QPTTSRC,AUFG006
 
 // MAIN PROGRAMM (ENTRY POINT with input char(30))
-dcl-proc AUFG006;
+dcl-proc AUFG006CPY;
 
   dcl-pi *n;
     input char(30) const options(*nopass);
@@ -76,13 +76,9 @@ dcl-proc convert;
     decimalPart = '0';
   endif;
 
-  // limit length
+  // limit integer part length
   if %len(integerPart) > TOTAL_LEN - DECIMAL_LEN;
     integerPart = %subst(integerPart: %len(integerPart) - TOTAL_LEN + DECIMAL_LEN + 1);
-  endif;
-
-  if %len(decimalPart) > DECIMAL_LEN;
-    decimalPart = %subst(decimalPart: 1: DECIMAL_LEN);
   endif;
 
   // convert to packed decimal

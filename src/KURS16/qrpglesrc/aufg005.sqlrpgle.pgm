@@ -1,0 +1,104 @@
+**free
+
+ctl-opt dftactgrp(*no) actgrp(*caller);
+
+dcl-f PERSON disk usage(*input) keyed rename(PERSON:PERSONF) infds(Re_Info_i);
+
+dcl-ds Re_Info template qualified inz;
+    Status       char(5) pos(1);
+    RcdFormat    char(10) pos(91);
+    OpCode       char(1) pos(369);
+    Member       char(10) pos(371);
+    RRN          int(10) pos(397);
+end-ds;
+
+dcl-ds Re_Info_i likeds(Re_Info);
+
+dcl-ds i_Person  likerec(PERSONF: *input);
+
+dcl-s seqNbr      int(10) inz(1);
+dcl-s rrnPers     Packed(5:0);
+dcl-s first_col   char(40);
+dcl-s second_col  char(40);
+dcl-s full_text   char(80);
+dcl-s lineNbr     packed(3:0);
+
+exec sql set option commit = *none;
+
+exec sql
+    SELECT COALESCE(MAX(SEQNBR), 0) + 1
+    INTO :seqNbr
+    FROM KURS16.PERSAW;
+
+Read PERSONF i_Person;
+
+DoW not %Eof;
+
+    rrnPers = Re_Info_i.RRN;
+
+//-----------------------------------
+// Zeile 1: Titel + Nummer
+//-----------------------------------
+    first_col = 'Titel: ' + %Trim(i_Person.TITEL);
+    second_col = 'Nummer: ' + %Char(i_Person.NUMMER);
+    full_text = first_col + '  ' + second_col;
+    lineNbr = 1;
+
+    exec sql
+insert into KURS16.PERSAW (SEQNBR, PERSRRN, LINENBR, TEXT)
+values (:seqNbr, :rrnPers, :lineNbr, :full_text);
+
+//-----------------------------------
+// Zeile 2: Vorname + Groesse
+//-----------------------------------
+    first_col = 'Vorname: ' + %Trim(i_Person.VORNAME);
+    second_col = 'Groesse: ' + %Char(i_Person.GROESSE);
+    full_text = first_col + '  ' + second_col;
+    lineNbr = 2;
+
+    exec sql
+insert into KURS16.PERSAW (SEQNBR, PERSRRN, LINENBR, TEXT)
+values (:seqNbr, :rrnPers, :lineNbr, :full_text);
+
+//-----------------------------------
+// Zeile 3: Nachname + Augenfarbe
+//-----------------------------------
+    first_col = 'Nachname: ' + %upper(%Trim(i_Person.NACHNAME));
+    second_col = 'Augenf.: ' + %Trim(i_Person.AUGENFARBE);
+    full_text = first_col + '  ' + second_col;
+    lineNbr = 3;
+
+    exec sql
+insert into KURS16.PERSAW (SEQNBR, PERSRRN, LINENBR, TEXT)
+values (:seqNbr, :rrnPers, :lineNbr, :full_text);
+
+//-----------------------------------
+// Zeile 4: GebOrt + Nation
+//-----------------------------------
+    first_col = 'GebOrt: ' + %Trim(i_Person.GEBORT);
+    second_col = 'Nation: ' + %Trim(i_Person.NATION);
+    full_text = first_col + '  ' + second_col;
+    lineNbr = 4;
+
+    exec sql
+insert into KURS16.PERSAW (SEQNBR, PERSRRN, LINENBR, TEXT)
+values (:seqNbr, :rrnPers, :lineNbr, :full_text);
+
+//-----------------------------------
+// Zeile 5: GebDatum
+//-----------------------------------
+    first_col = 'GebDatum: ' + %Char(i_Person.GEBDATUM);
+    second_col = '';
+    full_text = first_col;
+    lineNbr = 5;
+
+    exec sql
+insert into KURS16.PERSAW (SEQNBR, PERSRRN, LINENBR, TEXT)
+values (:seqNbr, :rrnPers, :lineNbr, :full_text);
+
+Read PERSONF i_Person;
+
+EndDo;
+
+*inlr = *on;
+

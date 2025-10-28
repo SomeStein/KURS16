@@ -1,0 +1,14 @@
+**free
+
+ctl-opt  BNDDIR('BNDDIR');
+
+/include qcpysrc,logger
+
+log('testlog');
+
+logdebug('Great it works!');
+
+return;
+
+
+

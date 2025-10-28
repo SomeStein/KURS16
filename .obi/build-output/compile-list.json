@@ -1,18 +1,225 @@
 {
-  "timestamp": "2025-10-28 11:00:01.718169",
+  "timestamp": "2025-10-28 11:28:30.123803",
   "compiles": [
     {
       "level": 1,
       "sources": [
         {
-          "source": "KURS16/qrpglesrc/AUFG006.rpgle.pgm",
+          "source": "KURS16/qrpglesrc/aufg001.rpgle.pgm",
           "cmds": [
             {
-              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/AUFG006.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg001.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
               "status": "new"
             },
             {
-              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/AUFG006'\") SRCSTMF('\"'src/KURS16/qrpglesrc/AUFG006.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg001'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg001.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg002.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg002.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg002'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg002.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg003.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg003.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg003'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg003.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg003ext.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg003ext.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg003ext'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg003ext.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg004.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg004.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg004'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg004.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg005.sqlrpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg005.sqlrpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTSQLRPGI OBJ(\"'kurs16/aufg005'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg005.sqlrpgle.pgm'\"') OBJTYPE(*PGM) RPGPPOPT(*LVL2) TGTRLS(*CURRENT) DBGVIEW(*SOURCE) REPLACE(*YES) COMPILEOPT('TGTCCSID(*JOB) ')\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg006.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg006.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg006'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg006.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg006cpy.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg006cpy.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg006cpy'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg006cpy.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg006ext.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg006ext.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg006ext'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg006ext.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTRPGMOD MODULE(\"'kurs16/aufg006srv'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"RMVBNDDIRE  OBJ(\"'*LIBL/aufg006srv'\")\" ; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTSRVPGM SRVPGM(\"'kurs16/aufg006srv'\") EXPORT(*ALL) ACTGRP(*CALLER)  REPLACE(*YES) TGTRLS(*CURRENT) STGMDL(*SNGLVL) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"ADDBNDDIRE  OBJ(\"'*LIBL/aufg006srv'\")\" ; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg006tst.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg006tst.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg006tst'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg006tst.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/aufg007.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/aufg007.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/aufg007'\") SRCSTMF('\"'src/KURS16/qrpglesrc/aufg007.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/logger.sqlrpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/logger.sqlrpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTSQLRPGI OBJ(\"'kurs16/logger'\") SRCSTMF('\"'src/KURS16/qrpglesrc/logger.sqlrpgle.pgm'\"') OBJTYPE(*PGM) RPGPPOPT(*LVL2) TGTRLS(*CURRENT) DBGVIEW(*SOURCE) REPLACE(*YES) COMPILEOPT('TGTCCSID(*JOB) ')\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/rechner.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/rechner.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/rechner'\") SRCSTMF('\"'src/KURS16/qrpglesrc/rechner.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/testlog.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/testlog.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/testlog'\") SRCSTMF('\"'src/KURS16/qrpglesrc/testlog.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "source": "KURS16/qrpglesrc/verbinder.rpgle.pgm",
+          "cmds": [
+            {
+              "cmd": "cl -v \"CHGATR OBJ('\"'src/KURS16/qrpglesrc/verbinder.rpgle.pgm'\"') ATR(*CCSID) VALUE(1208)\"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
+              "status": "new"
+            },
+            {
+              "cmd": "liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v \"CRTBNDRPG PGM(\"'kurs16/verbinder'\") SRCSTMF('\"'src/KURS16/qrpglesrc/verbinder.rpgle.pgm'\"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) \"; echo '=============(!)JOBLOG(!)===================='; cl -v \"DSPJOBLOG\"",
               "status": "new"
             }
           ]

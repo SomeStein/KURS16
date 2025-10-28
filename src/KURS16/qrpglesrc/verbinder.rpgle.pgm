@@ -1,0 +1,12 @@
+**free
+ctl-opt nomain;
+
+/Include qcpysrc,verbinder
+
+DCL-proc Verbinder export;
+  DCl-PI *n  char(15);
+    text1 char(5) const;
+    text2 char(5) const;
+  END-PI;
+  return text1 + '-' + text2;
+END-PROC;

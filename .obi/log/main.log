@@ -79,3 +79,297 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 2025-10-28 11:00:01,724 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/AUFG006.rpgle.pgm', lib_obj_name_md_encoded='KURS16/AUFG006.rpgle.pgm', obj_name='AUFG006.rpgle.pgm', obj_lib='KURS16'
 2025-10-28 11:00:01,724 DEBUG - results.py[155]: []
 2025-10-28 11:00:01,725 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 133366 Bytes
+2025-10-28 11:28:29,901 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
+2025-10-28 11:28:29,996 DEBUG - main.py[111]: Create build list
+2025-10-28 11:28:29,998 ERROR - properties.py[31]: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\AaronPumm\obi\obi\module\properties.py", line 28, in get_json
+    config_content[config] = json.load(f)
+                             ~~~~~~~~~^^^
+  File "C:\Users\AaronPumm\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\AaronPumm\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\AaronPumm\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AaronPumm\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-10-28 11:28:30,020 DEBUG - files.py[44]: Objects in build list: 0
+2025-10-28 11:28:30,020 DEBUG - files.py[46]: Search for changed sources in '.\src'
+2025-10-28 11:28:30,020 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
+2025-10-28 11:28:30,020 INFO - files.py[48]: Found 16 sources
+2025-10-28 11:28:30,020 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg001.rpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg002.rpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg003.rpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg003ext.rpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg004.rpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg005.sqlrpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg006.rpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg006cpy.rpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg006ext.rpgle.pgm not in build list
+2025-10-28 11:28:30,021 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm not in build list
+2025-10-28 11:28:30,022 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg006tst.rpgle.pgm not in build list
+2025-10-28 11:28:30,022 DEBUG - files.py[55]: KURS16/qrpglesrc/aufg007.rpgle.pgm not in build list
+2025-10-28 11:28:30,022 DEBUG - files.py[55]: KURS16/qrpglesrc/logger.sqlrpgle.pgm not in build list
+2025-10-28 11:28:30,022 DEBUG - files.py[55]: KURS16/qrpglesrc/rechner.rpgle.pgm not in build list
+2025-10-28 11:28:30,022 DEBUG - files.py[55]: KURS16/qrpglesrc/testlog.rpgle.pgm not in build list
+2025-10-28 11:28:30,022 DEBUG - files.py[55]: KURS16/qrpglesrc/verbinder.rpgle.pgm not in build list
+2025-10-28 11:28:30,026 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg001.rpgle.pgm
+2025-10-28 11:28:30,026 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg002.rpgle.pgm
+2025-10-28 11:28:30,027 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg003.rpgle.pgm
+2025-10-28 11:28:30,027 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg003ext.rpgle.pgm
+2025-10-28 11:28:30,027 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg004.rpgle.pgm
+2025-10-28 11:28:30,027 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg005.sqlrpgle.pgm
+2025-10-28 11:28:30,027 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg006.rpgle.pgm
+2025-10-28 11:28:30,027 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg006cpy.rpgle.pgm
+2025-10-28 11:28:30,027 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg006ext.rpgle.pgm
+2025-10-28 11:28:30,028 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm
+2025-10-28 11:28:30,028 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg006tst.rpgle.pgm
+2025-10-28 11:28:30,028 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/aufg007.rpgle.pgm
+2025-10-28 11:28:30,028 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/logger.sqlrpgle.pgm
+2025-10-28 11:28:30,028 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/rechner.rpgle.pgm
+2025-10-28 11:28:30,028 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/testlog.rpgle.pgm
+2025-10-28 11:28:30,028 DEBUG - dependency.py[116]: Dependend 1 KURS16/qrpglesrc/verbinder.rpgle.pgm
+2025-10-28 11:28:30,029 DEBUG - dependency.py[27]: objects_tree={'KURS16/qrpglesrc/aufg001.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg002.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg003.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg003ext.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg004.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg005.sqlrpgle.pgm': {}, 'KURS16/qrpglesrc/aufg006.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg006cpy.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg006ext.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm': {}, 'KURS16/qrpglesrc/aufg006tst.rpgle.pgm': {}, 'KURS16/qrpglesrc/aufg007.rpgle.pgm': {}, 'KURS16/qrpglesrc/logger.sqlrpgle.pgm': {}, 'KURS16/qrpglesrc/rechner.rpgle.pgm': {}, 'KURS16/qrpglesrc/testlog.rpgle.pgm': {}, 'KURS16/qrpglesrc/verbinder.rpgle.pgm': {}}
+2025-10-28 11:28:30,031 DEBUG - dependency.py[31]: ordered_target_tree=[{'level': 1, 'sources': [{'source': 'KURS16/qrpglesrc/aufg001.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg002.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg003.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg003ext.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg004.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg005.sqlrpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006cpy.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006ext.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006tst.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg007.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/logger.sqlrpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/rechner.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/testlog.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/verbinder.rpgle.pgm', 'cmds': []}]}]
+2025-10-28 11:28:30,036 DEBUG - dependency.py[36]: new_target_tree=[{'level': 1, 'sources': [{'source': 'KURS16/qrpglesrc/aufg001.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg002.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg003.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg003ext.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg004.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg005.sqlrpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006cpy.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006ext.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg006tst.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/aufg007.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/logger.sqlrpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/rechner.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/testlog.rpgle.pgm', 'cmds': []}, {'source': 'KURS16/qrpglesrc/verbinder.rpgle.pgm', 'cmds': []}]}]
+2025-10-28 11:28:30,038 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg001.rpgle.pgm'
+2025-10-28 11:28:30,038 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg001.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg001.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg001', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,038 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg001.rpgle.pgm
+2025-10-28 11:28:30,038 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,039 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,039 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,043 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,045 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg001.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg001.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg001', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,045 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,046 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,046 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,046 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,047 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg001.rpgle.pgm
+2025-10-28 11:28:30,048 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg002.rpgle.pgm'
+2025-10-28 11:28:30,048 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg002.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg002.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg002', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,048 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg002.rpgle.pgm
+2025-10-28 11:28:30,049 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,049 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,049 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,049 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,050 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg002.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg002.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg002', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,050 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,051 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,051 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,051 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,051 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg002.rpgle.pgm
+2025-10-28 11:28:30,052 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg003.rpgle.pgm'
+2025-10-28 11:28:30,052 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg003.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg003.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg003', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,052 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg003.rpgle.pgm
+2025-10-28 11:28:30,053 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,053 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,053 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,053 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,054 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg003.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg003.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg003', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,054 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,055 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,055 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,055 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,055 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg003.rpgle.pgm
+2025-10-28 11:28:30,056 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg003ext.rpgle.pgm'
+2025-10-28 11:28:30,056 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg003ext.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg003ext.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg003ext', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,057 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg003ext.rpgle.pgm
+2025-10-28 11:28:30,057 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,057 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,057 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,057 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,058 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg003ext.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg003ext.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg003ext', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,058 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,059 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,059 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,059 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,060 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg003ext.rpgle.pgm
+2025-10-28 11:28:30,060 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg004.rpgle.pgm'
+2025-10-28 11:28:30,061 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg004.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg004.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg004', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,061 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg004.rpgle.pgm
+2025-10-28 11:28:30,062 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,062 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,062 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,063 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,064 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg004.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg004.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg004', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,064 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,064 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,065 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,065 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,065 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg004.rpgle.pgm
+2025-10-28 11:28:30,066 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg005.sqlrpgle.pgm'
+2025-10-28 11:28:30,066 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*SOURCE', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'RPGPPOPT': '*LVL2', 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg005.sqlrpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg005.sqlrpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg005', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,066 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg005.sqlrpgle.pgm
+2025-10-28 11:28:30,067 DEBUG - build_cmds.py[87]: file_extensions='sqlrpgle.pgm'
+2025-10-28 11:28:30,067 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,067 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,067 DEBUG - app_config_tools.py[67]: file_extensions='sqlrpgle.pgm'
+2025-10-28 11:28:30,068 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*SOURCE', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'RPGPPOPT': '*LVL2', 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg005.sqlrpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg005.sqlrpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg005', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,068 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,069 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,069 DEBUG - build_cmds.py[106]: step='global.compile-cmds."sqlrpgle.pgm"'
+2025-10-28 11:28:30,069 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTSQLRPGI OBJ("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') OBJTYPE(*PGM) RPGPPOPT($(RPGPPOPT)) TGTRLS($(TGTRLS)) DBGVIEW($(DBGVIEW)) REPLACE(*YES) COMPILEOPT(\'TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_SQLRPGLE))\')"'
+2025-10-28 11:28:30,070 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg005.sqlrpgle.pgm
+2025-10-28 11:28:30,070 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg006.rpgle.pgm'
+2025-10-28 11:28:30,071 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg006.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,071 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg006.rpgle.pgm
+2025-10-28 11:28:30,071 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,071 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,071 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,072 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,072 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg006.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,073 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,073 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,073 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,073 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,074 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg006.rpgle.pgm
+2025-10-28 11:28:30,074 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg006cpy.rpgle.pgm'
+2025-10-28 11:28:30,075 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006cpy.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg006cpy.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006cpy', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,075 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg006cpy.rpgle.pgm
+2025-10-28 11:28:30,075 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,075 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,076 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,076 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,077 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006cpy.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg006cpy.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006cpy', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,077 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,077 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,077 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,078 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,079 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg006cpy.rpgle.pgm
+2025-10-28 11:28:30,080 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg006ext.rpgle.pgm'
+2025-10-28 11:28:30,080 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006ext.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg006ext.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006ext', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,080 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg006ext.rpgle.pgm
+2025-10-28 11:28:30,081 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,081 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,081 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,082 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,082 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006ext.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg006ext.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006ext', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,083 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,083 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,083 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,084 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,084 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg006ext.rpgle.pgm
+2025-10-28 11:28:30,085 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm'
+2025-10-28 11:28:30,085 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm', 'SOURCE_BASE_FILE_NAME': 'aufg006srv.rpgle.srvpgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006srv', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,085 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm
+2025-10-28 11:28:30,085 DEBUG - build_cmds.py[87]: file_extensions='rpgle.srvpgm'
+2025-10-28 11:28:30,085 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,086 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,086 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.srvpgm'
+2025-10-28 11:28:30,087 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm', 'SOURCE_BASE_FILE_NAME': 'aufg006srv.rpgle.srvpgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006srv', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,087 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,087 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,087 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.mod"'
+2025-10-28 11:28:30,088 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTRPGMOD MODULE("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,088 DEBUG - build_cmds.py[106]: step='global.compile-cmds.bnddir-rmv'
+2025-10-28 11:28:30,088 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "RMVBNDDIRE BNDDIR($(INCLUDE_BNDDIR)) OBJ("\'*LIBL/$(OBJ_NAME)\'")" '
+2025-10-28 11:28:30,088 DEBUG - build_cmds.py[106]: step='global.compile-cmds.srvpgm-crt'
+2025-10-28 11:28:30,089 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTSRVPGM SRVPGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") EXPORT(*ALL) ACTGRP($(ACTGRP)) BNDDIR($(INCLUDE_BNDDIR)) REPLACE(*YES) TGTRLS($(TGTRLS)) STGMDL($(STGMDL)) "'
+2025-10-28 11:28:30,089 DEBUG - build_cmds.py[106]: step='global.compile-cmds.bnddir-add'
+2025-10-28 11:28:30,089 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "ADDBNDDIRE BNDDIR($(INCLUDE_BNDDIR)) OBJ("\'*LIBL/$(OBJ_NAME)\'")" '
+2025-10-28 11:28:30,089 DEBUG - build_cmds.py[123]: Added 5 cmds for KURS16/qrpglesrc/aufg006srv.rpgle.srvpgm
+2025-10-28 11:28:30,090 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg006tst.rpgle.pgm'
+2025-10-28 11:28:30,090 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006tst.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg006tst.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006tst', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,093 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg006tst.rpgle.pgm
+2025-10-28 11:28:30,093 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,093 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,094 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,094 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,095 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg006tst.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg006tst.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg006tst', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,095 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,096 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,096 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,097 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,097 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg006tst.rpgle.pgm
+2025-10-28 11:28:30,098 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/aufg007.rpgle.pgm'
+2025-10-28 11:28:30,098 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg007.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg007.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg007', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,099 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/aufg007.rpgle.pgm
+2025-10-28 11:28:30,099 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,099 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,099 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,100 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,100 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/aufg007.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'aufg007.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'aufg007', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,101 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,101 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,101 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,101 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,102 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/aufg007.rpgle.pgm
+2025-10-28 11:28:30,102 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/logger.sqlrpgle.pgm'
+2025-10-28 11:28:30,103 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*SOURCE', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'RPGPPOPT': '*LVL2', 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/logger.sqlrpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'logger.sqlrpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'logger', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,103 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/logger.sqlrpgle.pgm
+2025-10-28 11:28:30,103 DEBUG - build_cmds.py[87]: file_extensions='sqlrpgle.pgm'
+2025-10-28 11:28:30,103 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,103 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,104 DEBUG - app_config_tools.py[67]: file_extensions='sqlrpgle.pgm'
+2025-10-28 11:28:30,104 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*SOURCE', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'RPGPPOPT': '*LVL2', 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/logger.sqlrpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'logger.sqlrpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'logger', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,105 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,105 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,105 DEBUG - build_cmds.py[106]: step='global.compile-cmds."sqlrpgle.pgm"'
+2025-10-28 11:28:30,106 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTSQLRPGI OBJ("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') OBJTYPE(*PGM) RPGPPOPT($(RPGPPOPT)) TGTRLS($(TGTRLS)) DBGVIEW($(DBGVIEW)) REPLACE(*YES) COMPILEOPT(\'TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_SQLRPGLE))\')"'
+2025-10-28 11:28:30,106 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/logger.sqlrpgle.pgm
+2025-10-28 11:28:30,107 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/rechner.rpgle.pgm'
+2025-10-28 11:28:30,107 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/rechner.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'rechner.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'rechner', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,107 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/rechner.rpgle.pgm
+2025-10-28 11:28:30,107 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,107 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,108 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,108 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,109 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/rechner.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'rechner.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'rechner', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,109 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,109 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,110 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,110 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,110 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/rechner.rpgle.pgm
+2025-10-28 11:28:30,113 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/testlog.rpgle.pgm'
+2025-10-28 11:28:30,114 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/testlog.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'testlog.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'testlog', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,114 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/testlog.rpgle.pgm
+2025-10-28 11:28:30,114 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,114 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,115 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,115 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,116 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/testlog.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'testlog.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'testlog', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,116 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,116 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,116 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,117 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,117 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/testlog.rpgle.pgm
+2025-10-28 11:28:30,118 DEBUG - build_cmds.py[37]: source='KURS16/qrpglesrc/verbinder.rpgle.pgm'
+2025-10-28 11:28:30,118 DEBUG - build_cmds.py[38]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/verbinder.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'verbinder.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'verbinder', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,118 DEBUG - build_cmds.py[77]: Check source cmds for KURS16/qrpglesrc/verbinder.rpgle.pgm
+2025-10-28 11:28:30,118 DEBUG - build_cmds.py[87]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,119 DEBUG - build_cmds.py[88]: source_config={}
+2025-10-28 11:28:30,119 DEBUG - app_config_tools.py[92]: sources_config={}
+2025-10-28 11:28:30,119 DEBUG - app_config_tools.py[67]: file_extensions='rpgle.pgm'
+2025-10-28 11:28:30,120 DEBUG - build_cmds.py[101]: variable_dict={'TGTRLS': '*CURRENT', 'DBGVIEW': '*ALL', 'TGTCCSID': '*JOB', 'STGMDL': '*SNGLVL', 'ACTGRP': '*CALLER', 'LIBL': ['$(TARGET_LIB)', 'QGPL'], 'SOURCE_FILE_NAME': 'src/KURS16/qrpglesrc/verbinder.rpgle.pgm', 'SOURCE_BASE_FILE_NAME': 'verbinder.rpgle.pgm', 'TARGET_LIB': 'kurs16', 'OBJ_NAME': 'verbinder', 'SET_LIBL': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null'}
+2025-10-28 11:28:30,120 DEBUG - build_cmds.py[106]: step='global.cmds.chg-src-ccsid'
+2025-10-28 11:28:30,120 DEBUG - build_cmds.py[138]: 2: cmd='cl -v "CHGATR OBJ(\'"\'$(SOURCE_FILE_NAME)\'"\') ATR(*CCSID) VALUE(1208)"'
+2025-10-28 11:28:30,121 DEBUG - build_cmds.py[106]: step='global.compile-cmds."rpgle.pgm"'
+2025-10-28 11:28:30,121 DEBUG - build_cmds.py[138]: 2: cmd='$(SET_LIBL); cl -v "CRTBNDRPG PGM("\'$(TARGET_LIB)/$(OBJ_NAME)\'") SRCSTMF(\'"\'$(SOURCE_FILE_NAME)\'"\') DBGVIEW($(DBGVIEW)) REPLACE(*YES) TGTCCSID($(TGTCCSID)) INCDIR($(INCDIR_RPGLE))"'
+2025-10-28 11:28:30,121 DEBUG - build_cmds.py[123]: Added 2 cmds for KURS16/qrpglesrc/verbinder.rpgle.pgm
+2025-10-28 11:28:30,121 DEBUG - build_cmds.py[25]: Write object list len(object_list)=1265 to .obi/build-output/object-list.txt
+2025-10-28 11:28:30,121 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 1265 Bytes
+2025-10-28 11:28:30,129 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg001.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg001.rpgle.pgm', obj_name='aufg001.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,129 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg002.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg002.rpgle.pgm', obj_name='aufg002.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,129 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg003.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg003.rpgle.pgm', obj_name='aufg003.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,130 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg003ext.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg003ext.rpgle.pgm', obj_name='aufg003ext.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,130 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg004.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg004.rpgle.pgm', obj_name='aufg004.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,131 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg005.sqlrpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg005.sqlrpgle.pgm', obj_name='aufg005.sqlrpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,131 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg006.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg006.rpgle.pgm', obj_name='aufg006.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,132 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg006cpy.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg006cpy.rpgle.pgm', obj_name='aufg006cpy.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,132 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg006ext.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg006ext.rpgle.pgm', obj_name='aufg006ext.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,132 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg006srv.rpgle.srvpgm', lib_obj_name_md_encoded='KURS16/aufg006srv.rpgle.srvpgm', obj_name='aufg006srv.rpgle.srvpgm', obj_lib='KURS16'
+2025-10-28 11:28:30,133 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg006tst.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg006tst.rpgle.pgm', obj_name='aufg006tst.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,133 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg007.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg007.rpgle.pgm', obj_name='aufg007.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,133 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/logger.sqlrpgle.pgm', lib_obj_name_md_encoded='KURS16/logger.sqlrpgle.pgm', obj_name='logger.sqlrpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,134 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/rechner.rpgle.pgm', lib_obj_name_md_encoded='KURS16/rechner.rpgle.pgm', obj_name='rechner.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,134 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/testlog.rpgle.pgm', lib_obj_name_md_encoded='KURS16/testlog.rpgle.pgm', obj_name='testlog.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,135 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/verbinder.rpgle.pgm', lib_obj_name_md_encoded='KURS16/verbinder.rpgle.pgm', obj_name='verbinder.rpgle.pgm', obj_lib='KURS16'
+2025-10-28 11:28:30,135 DEBUG - results.py[155]: []
+2025-10-28 11:28:30,136 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 151710 Bytes

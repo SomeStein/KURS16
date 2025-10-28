@@ -1,0 +1,24 @@
+**free
+
+dcl-s text varchar(50);
+dcl-s textlen uns(5);
+dcl-s padlen uns(5);
+dcl-s i uns(5);
+
+text = 'Hallo, Welt!';
+//text = 'Das ist ein test-text mit ca. 40 Zeichen.';
+//text = '----+----1----+----2----+----3----+----4----+----5';
+//text = '          ';
+//text = '     Text, der mit 5 Leerzeichen beinnt.';
+
+text = %trim(text);
+textlen = %len(text);
+padlen = %int((50 - textlen)/2);
+
+For i = 1 to padlen;
+  text = ' ' + text;
+EndFor;
+
+dsply text;
+
+*inLR = *on;
