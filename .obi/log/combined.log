@@ -4393,3 +4393,4 @@ qrpgsrc
 [2025-11-20T13:35:25.984Z] info: 	Status: {"version":1,"status":"ok"}
 [2025-11-20T13:35:25.986Z] info: 	compile_list['new-objects']: 4
 [2025-11-20T13:35:25.987Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T13:39:27.636Z] info: 	ChangeVisibility: [object Object]
