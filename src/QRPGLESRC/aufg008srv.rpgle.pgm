@@ -1,0 +1,50 @@
+**free
+ctl-opt main(AUFG008) dftactgrp(*no) datfmt(*iso) timfmt(*iso) BNDDIR('CALENDAR');
+
+/Include QPTTSRC,CALENDAR
+
+// Konstanten
+dcl-c START_DATE  const(d'1900-01-01');
+dcl-c END_DATE    const(d'2099-12-31');
+
+// ==========================
+// HAUPTPROZEDUR
+// ==========================
+
+dcl-proc AUFG008;
+
+  // File in usropn wegen file-lock
+  dcl-f CALENDAR     usage(*delete: *output) keyed usropn;
+  dcl-ds o_CALENDAR  likerec(CALENDAR_R : *output) inz;
+
+  // CL Befehle
+  build_CALENDAR_file();
+
+  // INITIALISIERUNG
+  open CALENDAR;
+  clear o_CALENDAR;
+  o_CALENDAR.Land        = 'AT';
+  o_CALENDAR.Datum       = START_DATE;
+  o_CALENDAR.WT_zoned    = get_WT(o_CALENDAR.Datum);
+  o_CALENDAR.WT_char     = get_WT_char(o_CALENDAR.WT_zoned);
+  o_CALENDAR.KW          = get_KW(o_CALENDAR.Datum);
+  o_CALENDAR.Tag_Nr      = 1;
+  o_CALENDAR.Feiertag    = get_Feiertag(o_CALENDAR.Datum : o_CALENDAR.Land);
+  o_CALENDAR.Feiertag_B  = get_Feiertag_B(o_CALENDAR.Feiertag);
+
+  // HAUPTSCHLEIFE
+  dow o_CALENDAR.Datum <= END_DATE;
+
+    write CALENDAR_R o_CALENDAR;
+
+    o_CALENDAR.Datum     += %days(1);
+    o_CALENDAR.WT_zoned   = get_WT(o_CALENDAR.Datum);
+    o_CALENDAR.WT_char    = get_WT_char(o_CALENDAR.WT_zoned);
+    o_CALENDAR.KW         = get_KW(o_CALENDAR.Datum);
+    o_CALENDAR.Tag_Nr     = get_Tag_Nr(o_CALENDAR.Datum);
+    o_CALENDAR.Feiertag   = get_Feiertag(o_CALENDAR.Datum : o_CALENDAR.Land);
+    o_CALENDAR.Feiertag_B = get_Feiertag_B(o_CALENDAR.Feiertag);
+  enddo;
+
+  *inlr = *on;
+end-proc;

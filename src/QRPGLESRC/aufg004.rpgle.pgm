@@ -1,0 +1,134 @@
+**free
+
+dcl-ds ds_Adresse qualified template inz;
+    Strasse        varchar(40) inz('');
+    Hausnummer     varchar(10) inz('');
+    PLZ            varchar(10) inz('');
+    Ort            varchar(40) inz('');
+    Telefonnummer  varchar(20) inz('');
+end-ds;
+
+dcl-ds ds_Bonkopf qualified template inz;
+    Bonnummer      int(10) inz(0);
+    Ladennamen     varchar(50) inz('');
+    Adresse        likeds(ds_Adresse) inz(*likeds);
+    Datum          date;
+end-ds;
+
+dcl-ds ds_Artikel qualified template inz;
+    Artikelnummer  int(10) inz(0);
+    Bezeichnung    varchar(100) inz('');
+    Abteilung      varchar(50) inz('');
+    Menge          packed(5) inz(0);
+    Einzelpreis    packed(7:2) inz(0);
+    Gesamtpreis    packed(7:2) inz(0);
+end-ds;
+
+dcl-ds ds_Kassenbon qualified template inz;
+    Bonkopf        likeds(ds_Bonkopf) inz(*likeds);
+    Artikel        likeds(ds_Artikel) dim(100) inz(*likeds);
+    Gesamtpreis    packed(7:2) inz(0);
+    Steuern        packed(7:2) inz(0);
+end-ds;
+
+// Deklarationen
+dcl-ds kaufland_adresse likeds(ds_Adresse);
+dcl-ds kaufland_bonkopf likeds(ds_Bonkopf);
+
+dcl-ds artikel1 likeds(ds_Artikel);
+dcl-ds artikel2 likeds(ds_Artikel);
+dcl-ds artikel3 likeds(ds_Artikel);
+
+dcl-ds kaufland_bon likeds(ds_Kassenbon) inz(*likeds);
+
+// Disply Hilfsvariablen
+dcl-ds artikel likeds(ds_Artikel);
+dcl-s output char(183);
+dcl-s Artikelnr like(ds_Artikel.Artikelnummer);
+dcl-s Bezeichnung like(ds_Artikel.Bezeichnung);
+dcl-s Menge like(ds_Artikel.Menge);
+dcl-s Einzelpreis like(ds_Artikel.Einzelpreis);
+dcl-s Gesamtpreis like(ds_Artikel.Gesamtpreis);
+
+// Initialisierung der Daten
+// Kaufland Adresse
+kaufland_adresse.Strasse = 'Raiffeisenstraße';
+kaufland_adresse.Hausnummer = '25';
+kaufland_adresse.PLZ = '74906';
+kaufland_adresse.Ort = 'Bad Rappenau';
+kaufland_adresse.Telefonnummer = '+4972642069390';
+
+// Kaufland Bonkopf
+kaufland_bonkopf.Bonnummer = 1234567890;
+kaufland_bonkopf.Ladennamen = 'Kaufland';
+kaufland_bonkopf.Adresse = kaufland_adresse;
+kaufland_bonkopf.Datum = %date(*date);
+
+// Artikel 1
+artikel1.Artikelnummer = 1001;
+artikel1.Bezeichnung = 'Baguette 250g';
+artikel1.Abteilung = 'Backshop';
+artikel1.Menge = 1;
+artikel1.Einzelpreis = 0.49;
+artikel1.Gesamtpreis = artikel1.Menge * artikel1.Einzelpreis;
+
+// Artikel 2
+artikel2.Artikelnummer = 1002;
+artikel2.Bezeichnung = 'Coca-Cola 1,5L';
+artikel2.Abteilung = 'Getränke';
+artikel2.Menge = 1;
+artikel2.Einzelpreis = 3.52;
+artikel2.Gesamtpreis = artikel2.Menge * artikel2.Einzelpreis;
+
+// Artikel 3
+artikel3.Artikelnummer = 1003;
+artikel3.Bezeichnung = 'Trauben 500g hell';
+artikel3.Abteilung = 'Obst&Gemüse';
+artikel3.Menge = 1;
+artikel3.Einzelpreis = 2.09;
+artikel3.Gesamtpreis = artikel3.Menge * artikel3.Einzelpreis;
+
+// Kassenbon zusammenstellen
+kaufland_bon.Bonkopf = kaufland_bonkopf;
+kaufland_bon.Artikel(1) = artikel1;
+kaufland_bon.Artikel(2) = artikel2;
+kaufland_bon.Artikel(3) = artikel3;
+kaufland_bon.Gesamtpreis = artikel1.Gesamtpreis + artikel2.Gesamtpreis + artikel3.Gesamtpreis;
+kaufland_bon.Steuern = kaufland_bon.Gesamtpreis * (0.19/1.19);
+
+// Ausgabe des Kassenbons
+dsply ('--------------------------------------------------');
+dsply kaufland_bon.Bonkopf.Ladennamen;
+dsply (%trim(kaufland_bon.Bonkopf.Adresse.Strasse) + ' ' + %trim(kaufland_bon.Bonkopf.Adresse.Hausnummer));
+dsply (%trim(kaufland_bon.Bonkopf.Adresse.PLZ) + ' ' + %trim(kaufland_bon.Bonkopf.Adresse.Ort));
+dsply kaufland_bon.Bonkopf.Adresse.Telefonnummer;
+dsply kaufland_bon.Bonkopf.Bonnummer;
+dsply kaufland_bon.Bonkopf.Datum;
+dsply ('--------------------------------------------------');
+
+dsply 'Nr.  Artikel      Menge  Einzelpreis  Gesamtpreis';
+dsply ('--------------------------------------------------');
+
+for-each artikel in kaufland_bon.Artikel;
+
+    if artikel.Artikelnummer <> 0;
+
+                Artikelnr = artikel.Artikelnummer;
+        Bezeichnung = artikel.Bezeichnung;
+        Menge = artikel.Menge;
+        Einzelpreis = artikel.Einzelpreis;
+        Gesamtpreis = artikel.Gesamtpreis;
+
+        output = %char(Artikelnr) + ' ' + %trim(Bezeichnung) +' '+ %char(Menge)
+                + 'x '+ %char(Einzelpreis) + ' '+ %char(Gesamtpreis);
+
+        dsply %subst(output:1:52);
+    endif;
+endfor;
+
+dsply ('--------------------------------------------------');
+dsply ('Gesamtpreis: ' + %char(kaufland_bon.Gesamtpreis));
+dsply ('Steuern (19%): ' + %char(kaufland_bon.Steuern));
+dsply ('--------------------------------------------------');
+
+*inlr = *on;

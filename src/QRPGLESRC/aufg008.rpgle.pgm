@@ -1,0 +1,385 @@
+**free
+ctl-opt main(AUFG008) dftactgrp(*no) actgrp('CALGRP') datfmt(*iso) timfmt(*iso);
+
+// Konstanten
+dcl-c START_DATE  const(d'1900-01-01');
+dcl-c END_DATE    const(d'2099-12-31');
+
+// ==========================
+// HAUPTPROZEDUR
+// ==========================
+
+dcl-proc AUFG008;
+
+  // File in usropn wegen file-lock
+  dcl-f CALENDAR     usage(*delete: *output) keyed usropn;
+  dcl-ds o_CALENDAR  likerec(CALENDAR_R : *output);
+
+  // CL Befehle
+  build_CALENDAR_file();
+
+  // INITIALISIERUNG
+  open CALENDAR;
+  clear o_CALENDAR;
+  o_CALENDAR.Land        = 'AT';
+  o_CALENDAR.Datum       = START_DATE;
+  o_CALENDAR.WT_zoned    = get_WT(o_CALENDAR.Datum);
+  o_CALENDAR.WT_char     = get_WT_char(o_CALENDAR.WT_zoned);
+  o_CALENDAR.KW          = get_KW(o_CALENDAR.Datum);
+  o_CALENDAR.Tag_Nr      = 1;
+  o_CALENDAR.Feiertag    = get_Feiertag(o_CALENDAR.Datum : o_CALENDAR.Land);
+  o_CALENDAR.Feiertag_B  = get_Feiertag_B(o_CALENDAR.Feiertag);
+
+  // HAUPTSCHLEIFE
+  dow o_CALENDAR.Datum <= END_DATE;
+
+    write CALENDAR_R o_CALENDAR;
+
+    o_CALENDAR.Datum     += %days(1);
+    o_CALENDAR.WT_zoned   = get_WT(o_CALENDAR.Datum);
+    o_CALENDAR.WT_char    = get_WT_char(o_CALENDAR.WT_zoned);
+    o_CALENDAR.KW         = get_KW(o_CALENDAR.Datum);
+    o_CALENDAR.Tag_Nr     = get_Tag_Nr(o_CALENDAR.Datum);
+    o_CALENDAR.Feiertag   = get_Feiertag(o_CALENDAR.Datum : o_CALENDAR.Land);
+    o_CALENDAR.Feiertag_B = get_Feiertag_B(o_CALENDAR.Feiertag);
+  enddo;
+
+  *inlr = *on;
+end-proc;
+
+// ==================================================
+// HILFSFUNKTIONEN
+// ==================================================
+
+// Wochentag
+dcl-proc get_WT;
+
+  dcl-pi *n zoned(1);
+    Datum  date const;
+  end-pi;
+
+  return %rem(%diff(Datum : d'0001-01-01' : *days) : 7) + 1;
+end-proc;
+
+// Wochentag zeichen
+dcl-proc get_WT_char;
+
+  dcl-pi *n char(2);
+    WT  zoned(1) const;
+  end-pi;
+
+  dcl-s WTcharArr char(2) dim(7);
+
+  WTcharArr = %list('MO':'DI':'MI':'DO':'FR':'SA':'SO');
+
+  return WTcharArr(WT);
+end-proc;
+
+// Montag KW1
+dcl-proc get_MontagKW1;
+  dcl-pi *n date;
+    Jahr  packed(4) const;
+  end-pi;
+
+  // *** Static Cache innerhalb der Prozedur ***
+  dcl-s KW1Cache date dim(3000) static inz(*loval);
+
+  dcl-s index     uns(10);
+  dcl-s Jan4      date;
+  dcl-s MontagKW1 date;
+
+  index = Jahr - %subdt(START_DATE: *years) + 1;
+
+  // Prüfen, ob bereits im Cache vorhanden
+  if KW1Cache(index) <> *loval;
+    return KW1Cache(index);
+  endif;
+
+  // Noch nicht im Cache -> berechnen
+  Jan4      = %date(%char(Jahr) + '-01-04' : *ISO);
+  MontagKW1 = Jan4 - %days(get_WT(Jan4) - 1);
+
+  // Ergebnis im Cache speichern
+  KW1Cache(index) = MontagKW1;
+
+  return MontagKW1;
+end-proc;
+
+// Kalenderwoche (1-53)
+dcl-proc get_KW;
+  dcl-pi *n zoned(2);
+    Datum  date;
+  end-pi;
+
+  dcl-s WT         zoned(1);
+  dcl-s Jahr       packed(4);
+  dcl-s MontagKW1  date;
+  dcl-s KW         zoned(2);
+
+  // Wochentag bestimmen
+  WT = get_WT(Datum);
+
+  // Jahr bestimmen (von Donnerstag der aktuellen Woche)
+  Jahr = %subdt(Datum + %days(4 - WT) : *years);
+
+  // Montag der KW1 des Jahres (aus Cache oder neu berechnet)
+  MontagKW1 = get_MontagKW1(Jahr);
+
+  // Kalenderwoche berechnen
+  KW = %div((%diff(Datum : MontagKW1 : *days)) : 7) + 1;
+
+  return KW;
+end-proc;
+
+// Laufender Tag im Jahr (1-366)
+dcl-proc get_Tag_Nr;
+  dcl-pi *n packed(3);
+    Datum date const;
+  end-pi;
+
+  dcl-s jahr packed(4);
+
+  jahr = %subdt(Datum:*Y);
+
+  return %diff(Datum:  %date(%char(jahr) + '-01-01': *iso): *days) + 1;
+end-proc;
+
+// Feiertage
+dcl-proc get_Feiertag;
+
+  dcl-pi *n varchar(30);
+    Datum date const;
+    Land  char(2) const;
+  end-pi;
+
+  // --- Fixe Feiertage mit zusammengesetztem Key 'MMDD'
+  dcl-ds FeiertageFix qualified dim(30) static;
+    TagMon char(4);       // z. B. '0101' für 1. Jänner
+    Name   varchar(30);
+  end-ds;
+
+  // --- Bewegliche Feiertage (relativ zu Ostern)
+  dcl-ds FeiertageVar qualified dim(30) static;
+    Diff int(10);
+    Name varchar(30);
+  end-ds;
+
+  dcl-s init ind static;
+  dcl-s tag zoned(2);
+  dcl-s mon zoned(2);
+  dcl-s jahr zoned(4);
+  dcl-s tagmon char(4);
+  dcl-s diff int(10);
+  dcl-s idx int(10);
+
+  // Initialisierung (nur einmalig)
+  if not init;
+
+    // --- Fixe Feiertage
+    FeiertageFix(1).TagMon = '0101';
+    FeiertageFix(1).Name   = 'Neujahr';
+
+    FeiertageFix(2).TagMon = '0601';
+    FeiertageFix(2).Name   = 'Heilige Drei Könige';
+
+    FeiertageFix(3).TagMon = '0105';
+    FeiertageFix(3).Name   = 'Staatsfeiertag';
+
+    FeiertageFix(4).TagMon = '1508';
+    FeiertageFix(4).Name   = 'Mariä Himmelfahrt';
+
+    FeiertageFix(5).TagMon = '2610';
+    FeiertageFix(5).Name   = 'Nationalfeiertag';
+
+    FeiertageFix(6).TagMon = '0111';
+    FeiertageFix(6).Name   = 'Allerheiligen';
+
+    FeiertageFix(7).TagMon = '0812';
+    FeiertageFix(7).Name   = 'Mariä Empfängnis';
+
+    FeiertageFix(8).TagMon = '2412';
+    FeiertageFix(8).Name   = 'Heiliger Abend';
+
+    FeiertageFix(9).TagMon = '2512';
+    FeiertageFix(9).Name   = 'Christtag';
+
+    FeiertageFix(10).TagMon = '2612';
+    FeiertageFix(10).Name   = 'Stefanitag';
+
+    FeiertageFix(11).TagMon = '3112';
+    FeiertageFix(11).Name   = 'Silvester';
+
+    FeiertageFix(12).TagMon = '1903';
+    FeiertageFix(12).Name   = 'Josefstag (regional)';
+
+    FeiertageFix(13).TagMon = '2406';
+    FeiertageFix(13).Name   = 'Johannistag (regional)';
+
+
+    // --- Bewegliche Feiertage (relativ zu Ostern)
+    FeiertageVar(1).Diff = -46;
+    FeiertageVar(1).Name = 'Aschermittwoch';
+
+    FeiertageVar(2).Diff = -7;
+    FeiertageVar(2).Name = 'Palmsonntag';
+
+    FeiertageVar(3).Diff = -2;
+    FeiertageVar(3).Name = 'Karfreitag (evang.)';
+
+    FeiertageVar(4).Diff = -1;
+    FeiertageVar(4).Name = 'Karsamstag';
+
+    FeiertageVar(5).Diff = 0;
+    FeiertageVar(5).Name = 'Ostersonntag';
+
+    FeiertageVar(6).Diff = 1;
+    FeiertageVar(6).Name = 'Ostermontag';
+
+    FeiertageVar(7).Diff = 39;
+    FeiertageVar(7).Name = 'Christi Himmelfahrt';
+
+    FeiertageVar(8).Diff = 49;
+    FeiertageVar(8).Name = 'Pfingstsonntag';
+
+    FeiertageVar(9).Diff = 50;
+    FeiertageVar(9).Name = 'Pfingstmontag';
+
+    FeiertageVar(10).Diff = 60;
+    FeiertageVar(10).Name = 'Fronleichnam';
+
+    init = *on;
+  endif;
+
+  // Länderfilter (derzeit nur AT)
+  if Land <> 'AT';
+    return '';
+  endif;
+
+  tag  = %subdt(Datum: *D);
+  mon  = %subdt(Datum: *M);
+  jahr = %subdt(Datum: *Y);
+
+  // Fixe Feiertage prüfen
+  tagmon = %editc(tag : 'X') + %editc(mon : 'X');
+  idx = %lookup(tagmon : FeiertageFix(*).TagMon);
+  if idx > 0;
+    return FeiertageFix(idx).Name;
+  endif;
+
+  // Bewegliche Feiertage prüfen
+  diff = %diff(Datum : get_Ostern(jahr) : *days);
+  idx = %lookup(diff : FeiertageVar(*).Diff);
+  if idx > 0;
+    return FeiertageVar(idx).Name;
+  endif;
+
+  // Kein Feiertag
+  return '';
+end-proc;
+
+// Ostern
+dcl-proc get_Ostern;
+
+  dcl-pi *n date;
+    Jahr zoned(4) const;
+  end-pi;
+
+  // *** Static Cache innerhalb der Prozedur ***
+  dcl-s OsternCache date dim(3000) static inz(*loval);
+
+  dcl-s index     uns(10);
+  dcl-s a         int(10);
+  dcl-s b         int(10);
+  dcl-s c         int(10);
+  dcl-s d         int(10);
+  dcl-s e         int(10);
+  dcl-s m         int(10);
+  dcl-s n         int(10);
+  dcl-s tag      zoned(2);
+  dcl-s monat    zoned(2);
+
+  index = Jahr - %subdt(START_DATE: *years) + 1;
+
+  // Prüfen, ob bereits im Cache vorhanden
+  if OsternCache(index) <> *loval;
+    return OsternCache(index);
+  endif;
+
+  // Gausssche Osterformel
+  if Jahr < 1583;
+    return *loval; // Julianisches System nicht unterstützt
+  endif;
+
+  a = %rem(Jahr: 19);
+  b = %div(Jahr: 100);
+  c = %rem(Jahr: 100);
+  d = %div(b: 4);
+  e = %rem(b: 4);
+  m = %div(8 * b + 13: 25);
+  n = (19 * a + b - d - m + 15);
+  n = %rem(n: 30);
+  n = n + 15;
+  n = n + %div(32 + 2 * e + 2 * %div(c: 4) - n - %rem(c: 4): 7);
+  tag = n - 9;
+  monat = 3;
+
+  if tag > 31;
+    tag -= 31;
+    monat = 4;
+  endif;
+
+  OsternCache(index) = %date(%char(Jahr)+'-'+%editc(monat: 'X')+'-'+%editc(tag: 'X') : *iso);
+  return OsternCache(index);
+end-proc;
+
+// Boolean Feiertag
+dcl-proc get_Feiertag_B;
+  dcl-pi *n char(1);
+    Name varchar(20) const;
+  end-pi;
+
+  if Name = '';
+    return '0';
+  else;
+    return '1';
+  endif;
+end-proc;
+
+// reset
+dcl-proc build_CALENDAR_file;
+
+  dcl-pi *n end-pi;
+
+  dcl-pr QCMDEXC extpgm('QCMDEXC');
+    cmd     char(3000) const;
+    length  packed(15:5) const;
+  end-pr;
+
+  dcl-s cmdStr varchar(3000);
+  dcl-s cmdLen packed(15:5);
+
+  // Alte Datei löschen
+  cmdStr = 'DLTF FILE(KURS16/CALENDAR)';
+  cmdLen = %len(%trim(cmdStr));
+  monitor;
+    callp QCMDEXC(cmdStr : cmdLen);
+  on-error;
+  endmon;
+
+  // Neue Datei erstellen aus DDS
+  cmdStr = 'CRTPF FILE(KURS16/CALENDAR) ' +
+           'SRCFILE(KURS16/QDDSSRC) ' +
+           'SRCMBR(CALENDAR) ' +
+           'SIZE(100000 10000) ';
+  cmdLen = %len(%trim(cmdStr));
+  callp QCMDEXC(cmdStr : cmdLen);
+
+  // Journaling deaktivieren
+  cmdStr = 'ENDJRNPF FILE(KURS16/CALENDAR)';
+  cmdLen = %len(%trim(cmdStr));
+  monitor;
+    callp QCMDEXC(cmdStr : cmdLen);
+  on-error;
+  endmon;
+
+end-proc;

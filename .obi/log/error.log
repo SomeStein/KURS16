@@ -49,3 +49,19 @@
 [2025-10-28T14:17:30.347Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
 [2025-11-20T08:39:28.057Z] error: 	System command error: update_obi | error: Error: spawn C:\WINDOWS\system32\cmd.exe ENOENT | cmd: 'git pull'
 [2025-11-20T08:39:35.997Z] error: 	System command error: update_obi | error: Error: spawn C:\WINDOWS\system32\cmd.exe ENOENT | cmd: 'git pull'
+[2025-11-20T10:24:32.738Z] error: 	Transfer canceled by user
+[2025-11-20T10:32:39.149Z] error: 	update_obi | cmd: 'git pull' | stderr: From https://github.com/andreas-prouza/obi
+   a6a1393..05e577e  main       -> origin/main
+
+[2025-11-20T10:32:49.850Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-11-20T10:32:49.851Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-11-20T10:33:21.812Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-11-20T10:33:21.813Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-11-20T10:36:50.314Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-11-20T10:36:50.315Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-11-20T10:43:04.334Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-11-20T10:43:04.334Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-11-20T13:25:25.377Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-11-20T13:25:25.378Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
+[2025-11-20T13:32:16.931Z] error: 	JSON parse error for c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-11-20T13:32:16.932Z] error: 	Parsing JSON content on line undefined, column undefined: Unexpected end of JSON input
