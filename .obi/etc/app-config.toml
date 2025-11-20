@@ -6,7 +6,6 @@ local-base-dir = "."
 remote-base-dir = "/home/KURS16/project1"
 source-dir = "src"
 check-remote-source-on-startup = true
-local-obi-dir = "C:\\Users\\AaronPumm\\obi\\obi"
 remote-obi-dir = "/apps/academy/2025/obi"
 supported-object-types = [ "pgm", "file", "srvpgm", "obj", "cpy" ]
 file-system-encoding = "utf-8"

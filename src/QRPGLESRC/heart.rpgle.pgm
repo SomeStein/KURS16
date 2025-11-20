@@ -1,0 +1,6 @@
+**free
+dcl-s heart char(5);
+heart = 'Heart';
+dsply heart;
+
+*inLR = *on;

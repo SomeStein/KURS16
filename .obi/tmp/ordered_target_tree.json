@@ -3,19 +3,7 @@
     "level": 1,
     "sources": [
       {
-        "source": "QRPGLESRC/aufg008.rpgle.pgm",
-        "cmds": []
-      },
-      {
-        "source": "QRPGLESRC/aufg008srv.rpgle.pgm",
-        "cmds": []
-      },
-      {
-        "source": "QRPGLESRC/aufg009.rpgle.pgm",
-        "cmds": []
-      },
-      {
-        "source": "QRPGLESRC/testlog.rpgle.pgm",
+        "source": "QRPGLESRC/heart.rpgle.pgm",
         "cmds": []
       }
     ]
