@@ -2810,3 +2810,13 @@ pwd 2: /home/KURS16
 [2025-11-20T08:45:08.376Z] info: 	ChangeVisibility: [object Object]
 [2025-11-20T08:49:19.617Z] info: 	ChangeVisibility: [object Object]
 [2025-11-20T08:49:23.187Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T09:04:29.534Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-11-20T09:04:29.536Z] info: 	Start app
+[2025-11-20T09:04:29.537Z] info: 	vscode.env.remoteName: undefined
+[2025-11-20T09:04:29.537Z] info: 	vscode.env.uriScheme: vscode
+[2025-11-20T09:04:29.538Z] info: 	vscode.env.appHost: desktop
+[2025-11-20T09:04:29.538Z] info: 	vscode.env.appHost: undefined
+[2025-11-20T09:04:29.539Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.en.json
+[2025-11-20T09:04:29.540Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.json
+[2025-11-20T09:04:29.549Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:04:29.551Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
