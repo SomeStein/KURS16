@@ -24,3 +24,55 @@
 2025-10-28 15:36:02,004 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/testlog.rpgle.pgm', lib_obj_name_md_encoded='KURS16/testlog.rpgle.pgm', obj_name='testlog.rpgle.pgm', obj_lib='KURS16'
 2025-10-28 15:36:02,004 DEBUG - results.py[155]: ['KURS16/qrpglesrc/testlog.rpgle.pgm']
 2025-10-28 15:36:02,005 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='/home/KURS16/project1/.obi/build-output/compiled-object-list.md'; 137295 Bytes
+2025-11-20 09:39:02,553 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
+2025-11-20 09:39:03,765 DEBUG - main.py[111]: Create build list
+2025-11-20 09:39:03,779 DEBUG - files.py[44]: Objects in build list: 28
+2025-11-20 09:39:03,779 DEBUG - files.py[46]: Search for changed sources in '.\src'
+2025-11-20 09:39:03,779 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
+2025-11-20 09:39:03,779 INFO - files.py[48]: Found 17 sources
+2025-11-20 09:39:03,782 DEBUG - dependency.py[27]: objects_tree={}
+2025-11-20 09:39:03,783 DEBUG - dependency.py[31]: ordered_target_tree=[]
+2025-11-20 09:39:03,784 DEBUG - dependency.py[36]: new_target_tree=[]
+2025-11-20 09:39:03,784 DEBUG - build_cmds.py[25]: Write object list len(object_list)=0 to .obi/build-output/object-list.txt
+2025-11-20 09:39:03,784 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 0 Bytes
+2025-11-20 09:39:03,789 DEBUG - results.py[155]: []
+2025-11-20 09:39:03,789 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 132223 Bytes
+2025-11-20 09:39:21,374 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
+2025-11-20 09:39:21,411 DEBUG - main.py[111]: Create build list
+2025-11-20 09:39:21,417 DEBUG - files.py[44]: Objects in build list: 17
+2025-11-20 09:39:21,417 DEBUG - files.py[46]: Search for changed sources in '.\src'
+2025-11-20 09:39:21,417 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
+2025-11-20 09:39:21,417 INFO - files.py[48]: Found 17 sources
+2025-11-20 09:39:21,418 DEBUG - dependency.py[27]: objects_tree={}
+2025-11-20 09:39:21,419 DEBUG - dependency.py[31]: ordered_target_tree=[]
+2025-11-20 09:39:21,422 DEBUG - dependency.py[36]: new_target_tree=[]
+2025-11-20 09:39:21,422 DEBUG - build_cmds.py[25]: Write object list len(object_list)=0 to .obi/build-output/object-list.txt
+2025-11-20 09:39:21,422 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 0 Bytes
+2025-11-20 09:39:21,424 DEBUG - results.py[155]: []
+2025-11-20 09:39:21,425 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 132223 Bytes
+2025-11-20 09:39:34,229 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
+2025-11-20 09:39:34,266 DEBUG - main.py[111]: Create build list
+2025-11-20 09:39:34,273 DEBUG - files.py[44]: Objects in build list: 17
+2025-11-20 09:39:34,273 DEBUG - files.py[46]: Search for changed sources in '.\src'
+2025-11-20 09:39:34,273 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
+2025-11-20 09:39:34,273 INFO - files.py[48]: Found 17 sources
+2025-11-20 09:39:34,274 DEBUG - dependency.py[27]: objects_tree={}
+2025-11-20 09:39:34,275 DEBUG - dependency.py[31]: ordered_target_tree=[]
+2025-11-20 09:39:34,277 DEBUG - dependency.py[36]: new_target_tree=[]
+2025-11-20 09:39:34,277 DEBUG - build_cmds.py[25]: Write object list len(object_list)=0 to .obi/build-output/object-list.txt
+2025-11-20 09:39:34,277 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 0 Bytes
+2025-11-20 09:39:34,279 DEBUG - results.py[155]: []
+2025-11-20 09:39:34,280 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 132223 Bytes
+2025-11-20 09:40:02,560 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
+2025-11-20 09:40:02,597 DEBUG - main.py[111]: Create build list
+2025-11-20 09:40:02,604 DEBUG - files.py[44]: Objects in build list: 17
+2025-11-20 09:40:02,604 DEBUG - files.py[46]: Search for changed sources in '.\src'
+2025-11-20 09:40:02,604 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
+2025-11-20 09:40:02,604 INFO - files.py[48]: Found 17 sources
+2025-11-20 09:40:02,607 DEBUG - dependency.py[27]: objects_tree={}
+2025-11-20 09:40:02,608 DEBUG - dependency.py[31]: ordered_target_tree=[]
+2025-11-20 09:40:02,609 DEBUG - dependency.py[36]: new_target_tree=[]
+2025-11-20 09:40:02,609 DEBUG - build_cmds.py[25]: Write object list len(object_list)=0 to .obi/build-output/object-list.txt
+2025-11-20 09:40:02,609 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 0 Bytes
+2025-11-20 09:40:02,611 DEBUG - results.py[155]: []
+2025-11-20 09:40:02,612 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 132223 Bytes

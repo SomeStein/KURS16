@@ -2687,3 +2687,126 @@ pwd 2: /home/KURS16
 [2025-10-28T14:36:04.034Z] info: 	compile_list['new-objects']: 0
 [2025-10-28T14:36:04.035Z] info: 	compile_list['changed-sources']: 1
 [2025-10-28T14:37:04.377Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T08:34:09.378Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-11-20T08:34:09.380Z] info: 	Start app
+[2025-11-20T08:34:09.382Z] info: 	vscode.env.remoteName: undefined
+[2025-11-20T08:34:09.383Z] info: 	vscode.env.uriScheme: vscode
+[2025-11-20T08:34:09.384Z] info: 	vscode.env.appHost: desktop
+[2025-11-20T08:34:09.384Z] info: 	vscode.env.appHost: undefined
+[2025-11-20T08:34:09.385Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.en.json
+[2025-11-20T08:34:09.387Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.json
+[2025-11-20T08:34:09.402Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:34:09.407Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:38:54.895Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T08:38:54.904Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-11-20T08:38:54.905Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-11-20T08:38:59.190Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:38:59.191Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-11-20T08:38:59.193Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:38:59.194Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-11-20T08:39:03.816Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-11-20T08:39:03.816Z] info: 	Render BuildSummary
+[2025-11-20T08:39:03.822Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T08:39:03.822Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T08:39:03.832Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T08:39:03.832Z] info: 	Status: {"status":"ok"}
+[2025-11-20T08:39:03.836Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T08:39:03.837Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T08:39:18.382Z] info: 	Start retrieve_current_source_hashes
+[2025-11-20T08:39:18.385Z] info: 	Duration: 2.8298000000067987 milliseconds
+[2025-11-20T08:39:18.386Z] info: 	Get checksum of sources
+[2025-11-20T08:39:18.395Z] info: 	In total 17 hash values. Duration: 7.916299999982584
+[2025-11-20T08:39:21.173Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:39:21.174Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-11-20T08:39:21.175Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:39:21.176Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-11-20T08:39:21.452Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-11-20T08:39:21.453Z] info: 	Render BuildSummary
+[2025-11-20T08:39:21.454Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T08:39:21.456Z] info: 	Status: {"status":"ok"}
+[2025-11-20T08:39:21.459Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T08:39:21.460Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T08:39:28.057Z] error: 	System command error: update_obi | error: Error: spawn C:\WINDOWS\system32\cmd.exe ENOENT | cmd: 'git pull'
+[2025-11-20T08:39:34.033Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:39:34.033Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-11-20T08:39:34.034Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:39:34.034Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-11-20T08:39:34.313Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-11-20T08:39:34.313Z] info: 	Render BuildSummary
+[2025-11-20T08:39:34.314Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T08:39:34.315Z] info: 	Status: {"status":"ok"}
+[2025-11-20T08:39:34.318Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T08:39:34.319Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T08:39:35.997Z] error: 	System command error: update_obi | error: Error: spawn C:\WINDOWS\system32\cmd.exe ENOENT | cmd: 'git pull'
+[2025-11-20T08:39:38.062Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T08:40:00.077Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T08:40:02.284Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:40:02.285Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-11-20T08:40:02.286Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:40:02.288Z] info: 	CMD: %UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .
+[2025-11-20T08:40:02.318Z] info: 	Get changed sources
+[2025-11-20T08:40:02.319Z] info: 	Start retrieve_current_source_hashes
+[2025-11-20T08:40:02.324Z] info: 	Duration: 3.9087000000290573 milliseconds
+[2025-11-20T08:40:02.324Z] info: 	Get checksum of sources
+[2025-11-20T08:40:02.330Z] info: 	In total 17 hash values. Duration: 5.304599999974016
+[2025-11-20T08:40:02.331Z] info: 	1. It took 11.351599999994505 milliseconds.
+[2025-11-20T08:40:02.331Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-11-20T08:40:02.332Z] info: 	Check 17 sources
+[2025-11-20T08:40:02.333Z] info: 	Start check_source_change_item: It took 0.26900000002933666 milliseconds.
+[2025-11-20T08:40:02.334Z] info: 	Change check: It took 0.4038999999756925 milliseconds.
+[2025-11-20T08:40:02.335Z] info: 	new_sources: 0, changed-sources: 0
+[2025-11-20T08:40:02.335Z] info: 	2. It took 4.127199999988079 milliseconds.
+[2025-11-20T08:40:02.336Z] info: 	Get dependend sources
+[2025-11-20T08:40:02.337Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\dependency.json
+[2025-11-20T08:40:02.339Z] info: 	Clean dir
+[2025-11-20T08:40:02.341Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json
+[2025-11-20T08:40:02.343Z] info: 	Write data to c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json
+[2025-11-20T08:40:02.344Z] info: 	Render BuildSummary
+[2025-11-20T08:40:02.346Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T08:40:02.347Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T08:40:02.642Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: '%UserProfile%\obi\obi\venv\Scripts\python.exe -X utf8 %UserProfile%\obi\obi\main.py -a create -p .'
+[2025-11-20T08:40:02.642Z] info: 	Render BuildSummary
+[2025-11-20T08:40:02.643Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T08:40:02.644Z] info: 	Status: {"status":"ok"}
+[2025-11-20T08:40:02.647Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T08:40:02.647Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T08:40:18.671Z] info: 	Connected to 80.120.164.220
+[2025-11-20T08:40:18.672Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-11-20T08:40:18.879Z] info: 	CODE: 0
+[2025-11-20T08:40:18.879Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-11-20T08:40:18.880Z] info: 	Transfer: .obi/etc/app-config.toml,.obi/etc/.user-app-config.toml
+[2025-11-20T08:40:19.182Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2>/dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a gen_src_list -p .'
+[2025-11-20T08:40:19.507Z] info: 	CODE: 0
+[2025-11-20T08:40:19.508Z] info: 	STDOUT: 
+[2025-11-20T08:40:19.508Z] info: 	Get remote file. LOCAL: c:\Users\AaronPumm\git\KURS16\.obi\etc\source-list-remote.json, REMOTE: /home/KURS16/project1/.obi/etc/source-list-local.json
+[2025-11-20T08:40:19.858Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-list-remote.json
+[2025-11-20T08:40:19.859Z] info: 	Start retrieve_current_source_hashes
+[2025-11-20T08:40:19.860Z] info: 	Duration: 1.2994000000180677 milliseconds
+[2025-11-20T08:40:19.860Z] info: 	Get checksum of sources
+[2025-11-20T08:40:19.864Z] info: 	In total 17 hash values. Duration: 3.0503000000026077
+[2025-11-20T08:40:19.864Z] info: 	Check 17 sources
+[2025-11-20T08:40:19.864Z] info: 	Start check_source_change_item: It took 0.04039999999804422 milliseconds.
+[2025-11-20T08:40:19.865Z] info: 	Change check: It took 0.12119999999413267 milliseconds.
+[2025-11-20T08:40:19.865Z] info: 	new_sources: 0, changed-sources: 0
+[2025-11-20T08:40:42.786Z] info: 	Expand: [object Object]
+[2025-11-20T08:40:43.522Z] info: 	Expand: [object Object]
+[2025-11-20T08:40:43.523Z] info: 	onDidChangeSelection: [object Object]
+[2025-11-20T08:40:43.524Z] info: 	[object Object]
+[2025-11-20T08:40:44.249Z] info: 	Expand: [object Object]
+[2025-11-20T08:40:44.250Z] info: 	onDidChangeSelection: [object Object]
+[2025-11-20T08:40:44.250Z] info: 	[object Object]
+[2025-11-20T08:41:18.387Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T08:42:08.389Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T08:42:11.130Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T08:42:11.132Z] info: 	Status: {"status":"ok"}
+[2025-11-20T08:42:16.096Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T08:44:07.978Z] info: 	Start retrieve_current_source_hashes
+[2025-11-20T08:44:07.983Z] info: 	Duration: 3.292600000044331 milliseconds
+[2025-11-20T08:44:07.983Z] info: 	Get checksum of sources
+[2025-11-20T08:44:07.991Z] info: 	In total 17 hash values. Duration: 8.161799999885261
+[2025-11-20T08:45:06.706Z] info: 	Collapse: [object Object]
+[2025-11-20T08:45:08.376Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T08:49:19.617Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T08:49:23.187Z] info: 	ChangeVisibility: [object Object]
