@@ -22,6 +22,7 @@ compile-list = ".obi/build-output/compile-list.json"
 compiled-object-list-md = ".obi/build-output/compiled-object-list.md"
 
 [global.settings.general]
+TARGET_LIB = "KURS16"
 TGTRLS = "*CURRENT"
 DBGVIEW = "*ALL"
 TGTCCSID = "*JOB"
