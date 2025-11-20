@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "level": 1,
+    "sources": [
+      {
+        "source": "KURS16/qrpglesrc/aufg002.rpgle.pgm",
+        "cmds": []
+      }
+    ]
+  }
+]

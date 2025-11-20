@@ -2820,3 +2820,269 @@ pwd 2: /home/KURS16
 [2025-11-20T09:04:29.540Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.json
 [2025-11-20T09:04:29.549Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
 [2025-11-20T09:04:29.551Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:23:24.101Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-11-20T09:23:24.105Z] info: 	Start app
+[2025-11-20T09:23:24.105Z] info: 	vscode.env.remoteName: undefined
+[2025-11-20T09:23:24.105Z] info: 	vscode.env.uriScheme: vscode
+[2025-11-20T09:23:24.106Z] info: 	vscode.env.appHost: desktop
+[2025-11-20T09:23:24.106Z] info: 	vscode.env.appHost: undefined
+[2025-11-20T09:23:24.107Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.en.json
+[2025-11-20T09:23:24.109Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.json
+[2025-11-20T09:23:24.121Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:23:24.123Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:23:24.492Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T09:23:24.507Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\source-list\PROGRAMS.json
+[2025-11-20T09:23:24.509Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\source-infos.json
+[2025-11-20T09:23:27.116Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.071Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.078Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.082Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.089Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.093Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.096Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.100Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.105Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.109Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.112Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.115Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.119Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.122Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.126Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.129Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.132Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.136Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.140Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.143Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.147Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.151Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.155Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.159Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.162Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.165Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.168Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.172Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.176Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.179Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.183Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.187Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.191Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.194Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.198Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.201Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.206Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.210Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.214Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.217Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.223Z] info: 	Check OBI path %UserProfile%\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.227Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.230Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:32.232Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.265Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.272Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.276Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.282Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.287Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.291Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.294Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.298Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.300Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.305Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.308Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.310Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.314Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.317Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.322Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.326Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.329Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.332Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.335Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.339Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.342Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.345Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.348Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.351Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.355Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.357Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.360Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.363Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.366Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.369Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.372Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.375Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.378Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.381Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.384Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.388Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.391Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.393Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.396Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:38.399Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:45.423Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:45.427Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:25:45.433Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.195Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.202Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.208Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.212Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.216Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.219Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.223Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.227Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.231Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.234Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.238Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.242Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.245Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.248Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.251Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.255Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.258Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.261Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.264Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.267Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.271Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.275Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.278Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.281Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.285Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.288Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.292Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.295Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.298Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.302Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.307Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.311Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.314Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.317Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.321Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.324Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.328Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.331Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.341Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.346Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.350Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.356Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:27:27.358Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.362Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.368Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.372Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.377Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.380Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.384Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.388Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.393Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.396Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.399Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.402Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.406Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.409Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.412Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.415Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.418Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.421Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.424Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.427Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.430Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.434Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.437Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.440Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.443Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.446Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.449Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.452Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.455Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.458Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.461Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.464Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.467Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.470Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.473Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.476Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.479Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.483Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.486Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.489Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.493Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.496Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.499Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:20.501Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:25.034Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:25.035Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-11-20T09:29:25.036Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:25.036Z] info: 	CMD: C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe -X utf8 C:\Users\AaronPumm\obi\obi\main.py -a create -p .
+[2025-11-20T09:29:25.308Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: 'C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe -X utf8 C:\Users\AaronPumm\obi\obi\main.py -a create -p .'
+[2025-11-20T09:29:25.308Z] info: 	Render BuildSummary
+[2025-11-20T09:29:25.311Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T09:29:25.312Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T09:29:25.322Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T09:29:25.323Z] info: 	Status: {"status":"ok"}
+[2025-11-20T09:29:25.326Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T09:29:25.326Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T09:29:28.292Z] info: 	Start retrieve_current_source_hashes
+[2025-11-20T09:29:28.297Z] info: 	Duration: 3.493700000050012 milliseconds
+[2025-11-20T09:29:28.297Z] info: 	Get checksum of sources
+[2025-11-20T09:29:28.304Z] info: 	In total 17 hash values. Duration: 6.453700000012759
+[2025-11-20T09:29:30.648Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:30.649Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-11-20T09:29:30.650Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:29:30.650Z] info: 	CMD: C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe -X utf8 C:\Users\AaronPumm\obi\obi\main.py -a create -p .
+[2025-11-20T09:29:30.903Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: 'C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe -X utf8 C:\Users\AaronPumm\obi\obi\main.py -a create -p .'
+[2025-11-20T09:29:30.903Z] info: 	Render BuildSummary
+[2025-11-20T09:29:30.904Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T09:29:30.905Z] info: 	Status: {"status":"ok"}
+[2025-11-20T09:29:30.908Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T09:29:30.908Z] info: 	compile_list['changed-sources']: 0
+[2025-11-20T09:29:55.636Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T09:32:42.620Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T09:32:44.006Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:32:44.007Z] info: 	WS: c:\Users\AaronPumm\git\KURS16
+[2025-11-20T09:32:44.007Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:32:44.008Z] info: 	CMD: C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe -X utf8 C:\Users\AaronPumm\obi\obi\main.py -a create -p .
+[2025-11-20T09:32:44.314Z] debug: 	System command succeeded: show_changes | exit-code: 0 | signal: null | cmd: 'C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe -X utf8 C:\Users\AaronPumm\obi\obi\main.py -a create -p .'
+[2025-11-20T09:32:44.314Z] info: 	Render BuildSummary
+[2025-11-20T09:32:44.315Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T09:32:44.316Z] info: 	Status: {"status":"ok"}
+[2025-11-20T09:32:44.319Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T09:32:44.319Z] info: 	compile_list['changed-sources']: 1
+[2025-11-20T09:32:50.139Z] info: 	Connected to 80.120.164.220
+[2025-11-20T09:32:50.141Z] info: 	Check path:  ls "/home/$USER"
+[2025-11-20T09:32:50.320Z] info: 	CODE: 0
+[2025-11-20T09:32:50.321Z] info: 	STDOUT: project1
+projekte
+[2025-11-20T09:32:50.321Z] info: 	Check path:  ls "/home/$USER/.bashrc"
+[2025-11-20T09:32:50.488Z] info: 	CODE: 0
+[2025-11-20T09:32:50.489Z] info: 	STDOUT: /home/kurs16/.bashrc
+[2025-11-20T09:32:50.493Z] info: 	Check path:  ls "/home/KURS16/project1/src" &&  ls "/home/KURS16/project1/.obi/etc/app-config.toml" &&  ls "/apps/academy/2025/obi/venv/bin/python"
+[2025-11-20T09:32:50.739Z] info: 	CODE: 0
+[2025-11-20T09:32:50.739Z] info: 	STDOUT: KURS16
+/home/KURS16/project1/.obi/etc/app-config.toml
+/apps/academy/2025/obi/venv/bin/python
+[2025-11-20T09:32:50.741Z] info: 	Transfer files: KURS16/qrpglesrc/aufg002.rpgle.pgm
+[2025-11-20T09:32:51.109Z] info: 	Transfer: .obi/build-output/compile-list.json
+[2025-11-20T09:32:51.493Z] debug: 	Send directory. Local: c:\Users\AaronPumm\git\KURS16\.obi\tmp, remote: /home/KURS16/project1/.obi/tmp
+[2025-11-20T09:32:51.854Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-11-20T09:32:51.855Z] info: 	Finished transfer in 0.3625041000000201 seconds.
+[2025-11-20T09:32:51.857Z] info: 	Execute: bash -c 'cd ''/home/KURS16/project1'' || exit 1; rm log/* .obi/log/* 2> /dev/null || true; /apps/academy/2025/obi/venv/bin/python -X utf8 /apps/academy/2025/obi/main.py -a run -p .'
+[2025-11-20T09:32:52.624Z] info: 	CODE: 0
+[2025-11-20T09:32:52.624Z] info: 	STDOUT: 
+[2025-11-20T09:32:53.365Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\tmp\new_target_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\dependend-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\objects_tree.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\changed-object-list.json,c:\Users\AaronPumm\git\KURS16\.obi\tmp\ordered_target_tree.json
+[2025-11-20T09:32:53.398Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\log\main.log,c:\Users\AaronPumm\git\KURS16\.obi\log\joblog.txt
+[2025-11-20T09:32:53.429Z] debug: 	Transfered: c:\Users\AaronPumm\git\KURS16\.obi\build-output\object-list.txt,c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compile-list.json,c:\Users\AaronPumm\git\KURS16\.obi\build-output\compiled-object-list.md
+[2025-11-20T09:32:53.431Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\etc\object-builds.json
+[2025-11-20T09:32:53.435Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T09:32:53.435Z] info: 	compile_list['changed-sources']: 1
+[2025-11-20T09:32:53.443Z] debug: 	Read json c:\Users\AaronPumm\git\KURS16\.obi\build-output\status.json
+[2025-11-20T09:32:53.444Z] info: 	Status: {"version":1,"status":"ok"}
+[2025-11-20T09:32:53.448Z] info: 	compile_list['new-objects']: 0
+[2025-11-20T09:32:53.448Z] info: 	compile_list['changed-sources']: 1
+[2025-11-20T09:33:38.135Z] info: 	ChangeVisibility: [object Object]
+[2025-11-20T09:39:26.301Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-11-20T09:39:26.304Z] info: 	Start app
+[2025-11-20T09:39:26.304Z] info: 	vscode.env.remoteName: undefined
+[2025-11-20T09:39:26.305Z] info: 	vscode.env.uriScheme: vscode
+[2025-11-20T09:39:26.306Z] info: 	vscode.env.appHost: desktop
+[2025-11-20T09:39:26.306Z] info: 	vscode.env.appHost: undefined
+[2025-11-20T09:39:26.307Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.en.json
+[2025-11-20T09:39:26.308Z] debug: 	Read json c:\Users\AaronPumm\.vscode\extensions\andreas-prouza.obi-0.4.12\package.nls.json
+[2025-11-20T09:39:26.319Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true
+[2025-11-20T09:39:26.322Z] info: 	Check OBI path C:\Users\AaronPumm\obi\obi\venv\Scripts\python.exe: true

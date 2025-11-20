@@ -1,78 +1,15 @@
-2025-10-28 15:36:00,504 INFO - main.py[49]: Arguments: {'action': 'run', 'source': None, 'set_path': '.', 'editor': None}
-2025-10-28 15:36:00,536 DEBUG - main.py[55]: Run build list
-2025-10-28 15:36:00,536 DEBUG - main.py[58]: Load configs
-2025-10-28 15:36:00,536 DEBUG - main.py[63]: Load compile list
-2025-10-28 15:36:00,536 DEBUG - main.py[68]: Remember sources needed to compile
-2025-10-28 15:36:00,536 DEBUG - files.py[160]: Source source='KURS16/qrpglesrc/logger.sqlrpgle.srvpgm' gets removed from object-build-list because it needs to get compiled
-2025-10-28 15:36:00,536 DEBUG - files.py[160]: Source source='KURS16/qrpglesrc/testlog.rpgle.pgm' gets removed from object-build-list because it needs to get compiled
-2025-10-28 15:36:00,537 DEBUG - main.py[75]: Run object builds
-2025-10-28 15:36:00,537 INFO - run_cmds.py[37]: Run level_item['level']=1: 1 entries
-2025-10-28 15:36:00,537 INFO - run_cmds.py[45]: KURS16/qrpglesrc/logger.sqlrpgle.srvpgm
-2025-10-28 15:36:00,537 INFO - run_cmds.py[46]: [{'cmd': 'cl -v "CHGATR OBJ(\'"\'src/KURS16/qrpglesrc/logger.sqlrpgle.srvpgm\'"\') ATR(*CCSID) VALUE(1208)"; echo \'=============(!)JOBLOG(!)====================\'; cl -v "DSPJOBLOG"', 'status': 'new'}, {'cmd': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTSQLRPGI OBJ("\'kurs16/logger\'") SRCSTMF(\'"\'src/KURS16/qrpglesrc/logger.sqlrpgle.srvpgm\'"\') OBJTYPE(*MODULE) RPGPPOPT(*LVL2) TGTRLS(*CURRENT) DBGVIEW(*SOURCE) REPLACE(*YES) COMPILEOPT(\'TGTCCSID(*JOB) \')"; echo \'=============(!)JOBLOG(!)====================\'; cl -v "DSPJOBLOG"', 'status': 'new'}, {'cmd': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "RMVBNDDIRE BNDDIR(BNDDIR) OBJ("\'*LIBL/logger\'")" ; echo \'=============(!)JOBLOG(!)====================\'; cl -v "DSPJOBLOG"', 'status': 'new'}, {'cmd': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTSRVPGM SRVPGM("\'kurs16/logger\'") EXPORT(*ALL) ACTGRP(*CALLER) BNDDIR(BNDDIR) REPLACE(*YES) TGTRLS(*CURRENT) STGMDL(*SNGLVL) "; echo \'=============(!)JOBLOG(!)====================\'; cl -v "DSPJOBLOG"', 'status': 'new'}, {'cmd': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "ADDBNDDIRE BNDDIR(BNDDIR) OBJ("\'*LIBL/logger\'")" ; echo \'=============(!)JOBLOG(!)====================\'; cl -v "DSPJOBLOG"', 'status': 'new'}]
-2025-10-28 15:36:00,537 DEBUG - run_cmds.py[57]: Execute (new) cl -v "CHGATR OBJ('"'src/KURS16/qrpglesrc/logger.sqlrpgle.srvpgm'"') ATR(*CCSID) VALUE(1208)"; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"
-2025-10-28 15:36:00,651 DEBUG - run_cmds.py[57]: Execute (new) liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTSQLRPGI OBJ("'kurs16/logger'") SRCSTMF('"'src/KURS16/qrpglesrc/logger.sqlrpgle.srvpgm'"') OBJTYPE(*MODULE) RPGPPOPT(*LVL2) TGTRLS(*CURRENT) DBGVIEW(*SOURCE) REPLACE(*YES) COMPILEOPT('TGTCCSID(*JOB) ')"; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"
-2025-10-28 15:36:01,163 DEBUG - run_cmds.py[57]: Execute (new) liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "RMVBNDDIRE BNDDIR(BNDDIR) OBJ("'*LIBL/logger'")" ; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"
-2025-10-28 15:36:01,285 DEBUG - run_cmds.py[57]: Execute (new) liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTSRVPGM SRVPGM("'kurs16/logger'") EXPORT(*ALL) ACTGRP(*CALLER) BNDDIR(BNDDIR) REPLACE(*YES) TGTRLS(*CURRENT) STGMDL(*SNGLVL) "; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"
-2025-10-28 15:36:01,426 DEBUG - run_cmds.py[57]: Execute (new) liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "ADDBNDDIRE BNDDIR(BNDDIR) OBJ("'*LIBL/logger'")" ; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"
-2025-10-28 15:36:01,551 INFO - run_cmds.py[37]: Run level_item['level']=2: 1 entries
-2025-10-28 15:36:01,552 INFO - run_cmds.py[45]: KURS16/qrpglesrc/testlog.rpgle.pgm
-2025-10-28 15:36:01,552 INFO - run_cmds.py[46]: [{'cmd': 'cl -v "CHGATR OBJ(\'"\'src/KURS16/qrpglesrc/testlog.rpgle.pgm\'"\') ATR(*CCSID) VALUE(1208)"; echo \'=============(!)JOBLOG(!)====================\'; cl -v "DSPJOBLOG"', 'status': 'new'}, {'cmd': 'liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTBNDRPG PGM("\'kurs16/testlog\'") SRCSTMF(\'"\'src/KURS16/qrpglesrc/testlog.rpgle.pgm\'"\') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) "; echo \'=============(!)JOBLOG(!)====================\'; cl -v "DSPJOBLOG"', 'status': 'new'}]
-2025-10-28 15:36:01,552 DEBUG - run_cmds.py[57]: Execute (new) cl -v "CHGATR OBJ('"'src/KURS16/qrpglesrc/testlog.rpgle.pgm'"') ATR(*CCSID) VALUE(1208)"; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"
-2025-10-28 15:36:01,684 DEBUG - run_cmds.py[57]: Execute (new) liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTBNDRPG PGM("'kurs16/testlog'") SRCSTMF('"'src/KURS16/qrpglesrc/testlog.rpgle.pgm'"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) "; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"
-2025-10-28 15:36:02,001 DEBUG - main.py[87]: Get results from build
-2025-10-28 15:36:02,004 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/logger.sqlrpgle.srvpgm', lib_obj_name_md_encoded='KURS16/logger.sqlrpgle.srvpgm', obj_name='logger.sqlrpgle.srvpgm', obj_lib='KURS16'
-2025-10-28 15:36:02,004 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/testlog.rpgle.pgm', lib_obj_name_md_encoded='KURS16/testlog.rpgle.pgm', obj_name='testlog.rpgle.pgm', obj_lib='KURS16'
-2025-10-28 15:36:02,004 DEBUG - results.py[155]: ['KURS16/qrpglesrc/testlog.rpgle.pgm']
-2025-10-28 15:36:02,005 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='/home/KURS16/project1/.obi/build-output/compiled-object-list.md'; 137295 Bytes
-2025-11-20 09:39:02,553 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
-2025-11-20 09:39:03,765 DEBUG - main.py[111]: Create build list
-2025-11-20 09:39:03,779 DEBUG - files.py[44]: Objects in build list: 28
-2025-11-20 09:39:03,779 DEBUG - files.py[46]: Search for changed sources in '.\src'
-2025-11-20 09:39:03,779 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
-2025-11-20 09:39:03,779 INFO - files.py[48]: Found 17 sources
-2025-11-20 09:39:03,782 DEBUG - dependency.py[27]: objects_tree={}
-2025-11-20 09:39:03,783 DEBUG - dependency.py[31]: ordered_target_tree=[]
-2025-11-20 09:39:03,784 DEBUG - dependency.py[36]: new_target_tree=[]
-2025-11-20 09:39:03,784 DEBUG - build_cmds.py[25]: Write object list len(object_list)=0 to .obi/build-output/object-list.txt
-2025-11-20 09:39:03,784 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 0 Bytes
-2025-11-20 09:39:03,789 DEBUG - results.py[155]: []
-2025-11-20 09:39:03,789 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 132223 Bytes
-2025-11-20 09:39:21,374 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
-2025-11-20 09:39:21,411 DEBUG - main.py[111]: Create build list
-2025-11-20 09:39:21,417 DEBUG - files.py[44]: Objects in build list: 17
-2025-11-20 09:39:21,417 DEBUG - files.py[46]: Search for changed sources in '.\src'
-2025-11-20 09:39:21,417 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
-2025-11-20 09:39:21,417 INFO - files.py[48]: Found 17 sources
-2025-11-20 09:39:21,418 DEBUG - dependency.py[27]: objects_tree={}
-2025-11-20 09:39:21,419 DEBUG - dependency.py[31]: ordered_target_tree=[]
-2025-11-20 09:39:21,422 DEBUG - dependency.py[36]: new_target_tree=[]
-2025-11-20 09:39:21,422 DEBUG - build_cmds.py[25]: Write object list len(object_list)=0 to .obi/build-output/object-list.txt
-2025-11-20 09:39:21,422 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 0 Bytes
-2025-11-20 09:39:21,424 DEBUG - results.py[155]: []
-2025-11-20 09:39:21,425 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 132223 Bytes
-2025-11-20 09:39:34,229 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
-2025-11-20 09:39:34,266 DEBUG - main.py[111]: Create build list
-2025-11-20 09:39:34,273 DEBUG - files.py[44]: Objects in build list: 17
-2025-11-20 09:39:34,273 DEBUG - files.py[46]: Search for changed sources in '.\src'
-2025-11-20 09:39:34,273 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
-2025-11-20 09:39:34,273 INFO - files.py[48]: Found 17 sources
-2025-11-20 09:39:34,274 DEBUG - dependency.py[27]: objects_tree={}
-2025-11-20 09:39:34,275 DEBUG - dependency.py[31]: ordered_target_tree=[]
-2025-11-20 09:39:34,277 DEBUG - dependency.py[36]: new_target_tree=[]
-2025-11-20 09:39:34,277 DEBUG - build_cmds.py[25]: Write object list len(object_list)=0 to .obi/build-output/object-list.txt
-2025-11-20 09:39:34,277 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 0 Bytes
-2025-11-20 09:39:34,279 DEBUG - results.py[155]: []
-2025-11-20 09:39:34,280 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 132223 Bytes
-2025-11-20 09:40:02,560 INFO - main.py[49]: Arguments: {'action': 'create', 'source': None, 'set_path': '.', 'editor': None}
-2025-11-20 09:40:02,597 DEBUG - main.py[111]: Create build list
-2025-11-20 09:40:02,604 DEBUG - files.py[44]: Objects in build list: 17
-2025-11-20 09:40:02,604 DEBUG - files.py[46]: Search for changed sources in '.\src'
-2025-11-20 09:40:02,604 DEBUG - files.py[47]: object_types=['pgm', 'file', 'srvpgm', 'obj', 'cpy']
-2025-11-20 09:40:02,604 INFO - files.py[48]: Found 17 sources
-2025-11-20 09:40:02,607 DEBUG - dependency.py[27]: objects_tree={}
-2025-11-20 09:40:02,608 DEBUG - dependency.py[31]: ordered_target_tree=[]
-2025-11-20 09:40:02,609 DEBUG - dependency.py[36]: new_target_tree=[]
-2025-11-20 09:40:02,609 DEBUG - build_cmds.py[25]: Write object list len(object_list)=0 to .obi/build-output/object-list.txt
-2025-11-20 09:40:02,609 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\object-list.txt'; 0 Bytes
-2025-11-20 09:40:02,611 DEBUG - results.py[155]: []
-2025-11-20 09:40:02,612 DEBUG - files.py[90]: Write Textfile: os.path.abspath(file)='C:\\Users\\AaronPumm\\git\\KURS16\\.obi\\build-output\\compiled-object-list.md'; 132223 Bytes
+2025-11-20 10:32:52,179 INFO - main.py[49]: Arguments: {'action': 'run', 'source': None, 'set_path': '.', 'editor': None}
+2025-11-20 10:32:52,203 DEBUG - main.py[55]: Run build list
+2025-11-20 10:32:52,203 DEBUG - main.py[58]: Load configs
+2025-11-20 10:32:52,203 DEBUG - main.py[63]: Load compile list
+2025-11-20 10:32:52,204 DEBUG - main.py[68]: Remember sources needed to compile
+2025-11-20 10:32:52,204 DEBUG - files.py[165]: Source source='KURS16/qrpglesrc/aufg002.rpgle.pgm' gets removed from object-build-list because it needs to get compiled
+2025-11-20 10:32:52,205 DEBUG - main.py[75]: Run object builds
+2025-11-20 10:32:52,205 INFO - run_cmds.py[40]: Run level_item['level']=1: 1 entries
+2025-11-20 10:32:52,205 INFO - run_cmds.py[48]: KURS16/qrpglesrc/aufg002.rpgle.pgm
+2025-11-20 10:32:52,206 DEBUG - run_cmds.py[96]: Run PASE cmd: cl -v "CHGATR OBJ('"'src/KURS16/qrpglesrc/aufg002.rpgle.pgm'"') ATR(*CCSID) VALUE(1208)"; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"; cl -v "dspjoblog" > .obi/log/joblog.txt
+2025-11-20 10:32:52,346 DEBUG - run_cmds.py[96]: Run PASE cmd: liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTBNDRPG PGM("'kurs16/aufg002'") SRCSTMF('"'src/KURS16/qrpglesrc/aufg002.rpgle.pgm'"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) "; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"; cl -v "dspjoblog" > .obi/log/joblog.txt
+2025-11-20 10:32:52,610 DEBUG - main.py[87]: Get results from build
+2025-11-20 10:32:52,612 DEBUG - results.py[111]: build_output_dir='.obi/build-output/objects', sub_folder='qrpglesrc', lib_obj_name='KURS16/aufg002.rpgle.pgm', lib_obj_name_md_encoded='KURS16/aufg002.rpgle.pgm', obj_name='aufg002.rpgle.pgm', obj_lib='KURS16'
+2025-11-20 10:32:52,612 DEBUG - results.py[155]: []
+2025-11-20 10:32:52,613 DEBUG - files.py[95]: Write Textfile: os.path.abspath(file)='/home/KURS16/project1/.obi/build-output/compiled-object-list.md'; 133777 Bytes

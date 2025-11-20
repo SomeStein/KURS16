@@ -7,17 +7,19 @@
 
 ## Summary
 
-Created at 2025-11-20 09:40:02.610217
+Created at 2025-11-20 10:32:52.603413
 
 | New sources | Changed sources | Dependend objects |
 | :-   | :--------         | :-------              |
-| <ul></ul> | <ul></ul> | <ul></ul> |
+| <ul></ul> | <ul><li>KURS16/qrpglesrc/aufg002.rpgle.pgm</li></ul> | <ul></ul> |
 
 
 ## Details
 
 | level | lib | object | status| no. of commands / details |
 | :--- | :---- | :----- | :----- | :---- |
+| **1. level** |
+| | KURS16 | [qrpglesrc/aufg002.rpgle.pgm](/src/KURS16/qrpglesrc/aufg002.rpgle.pgm) | <span style="background-color:#76FF03;color:black">success</span> | <details><summary>2 commands</summary> <table><tr><th>timestamp</th><th>status</th><th>command</th></tr><tr><td>2025-11-20T10:32:52.342437</td><td><span style="background-color:#76FF03;color:black">success</span></td><td><details><summary>cl -v \"CHGATR OBJ('\"'src/KUR...</summary><code>cl -v "CHGATR OBJ('"'src/KURS16/qrpglesrc/aufg002.rpgle.pgm'"') ATR(*CCSID) VALUE(1208)"; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"</code></details> </td><td> [Joblog](/.obi/build-output/objects/KURS16/aufg002.rpgle.pgm/command-1.joblog)</td><td> [Spool file](/.obi/build-output/objects/KURS16/aufg002.rpgle.pgm/command-1.splf)</td></tr><tr><td>2025-11-20T10:32:52.603375</td><td><span style="background-color:#76FF03;color:black">success</span></td><td><details><summary>liblist -a kurs16 2> /dev/null...</summary><code>liblist -a kurs16 2> /dev/null; liblist -a QGPL 2> /dev/null; cl -v "CRTBNDRPG PGM("'kurs16/aufg002'") SRCSTMF('"'src/KURS16/qrpglesrc/aufg002.rpgle.pgm'"') DBGVIEW(*ALL) REPLACE(*YES) TGTCCSID(*JOB) "; echo '=============(!)JOBLOG(!)===================='; cl -v "DSPJOBLOG"</code></details> </td><td> [Joblog](/.obi/build-output/objects/KURS16/aufg002.rpgle.pgm/command-2.joblog)</td><td> [Spool file](/.obi/build-output/objects/KURS16/aufg002.rpgle.pgm/command-2.splf)</td></tr></table> </details>|
 
 <br/>
 
