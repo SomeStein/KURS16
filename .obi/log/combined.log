@@ -4394,3 +4394,20 @@ qrpgsrc
 [2025-11-20T13:35:25.986Z] info: 	compile_list['new-objects']: 4
 [2025-11-20T13:35:25.987Z] info: 	compile_list['changed-sources']: 0
 [2025-11-20T13:39:27.636Z] info: 	ChangeVisibility: [object Object]
+[2025-11-23T11:08:21.054Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-11-23T11:08:21.056Z] info: 	Start app
+[2025-11-23T11:08:21.056Z] info: 	vscode.env.remoteName: undefined
+[2025-11-23T11:08:21.056Z] info: 	vscode.env.uriScheme: vscode
+[2025-11-23T11:08:21.057Z] info: 	vscode.env.appHost: desktop
+[2025-11-23T11:08:21.057Z] info: 	vscode.env.appHost: undefined
+[2025-11-23T11:08:21.057Z] debug: 	Read json c:\Users\Aaron\.vscode\extensions\andreas-prouza.obi-0.4.14\package.nls.en.json
+[2025-11-23T11:08:21.059Z] debug: 	Read json c:\Users\Aaron\.vscode\extensions\andreas-prouza.obi-0.4.14\package.nls.json
+[2025-11-23T11:11:34.017Z] info: 	Congratulations, your extension "obi" is now active!
+[2025-11-23T11:11:34.018Z] info: 	Start app
+[2025-11-23T11:11:34.018Z] info: 	vscode.env.remoteName: undefined
+[2025-11-23T11:11:34.018Z] info: 	vscode.env.uriScheme: vscode
+[2025-11-23T11:11:34.019Z] info: 	vscode.env.appHost: desktop
+[2025-11-23T11:11:34.019Z] info: 	vscode.env.appHost: undefined
+[2025-11-23T11:11:34.019Z] debug: 	Read json c:\Users\Aaron\.vscode\extensions\andreas-prouza.obi-0.4.22\package.nls.en.json
+[2025-11-23T11:11:34.020Z] debug: 	Read json c:\Users\Aaron\.vscode\extensions\andreas-prouza.obi-0.4.22\package.nls.json
+[2025-11-23T11:11:34.030Z] debug: 	Setting up file watcher for file changes in file:///c%3A/Users/Aaron/Desktop/Lokale_Projekte/KURS16/src
