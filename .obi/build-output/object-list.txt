@@ -1,1 +1,0 @@
-prod_obj|QRPGLESRC|kurs16|heart|pgm|rpgle|QRPGLESRC/heart.rpgle.pgm

@@ -1,8 +1,0 @@
-[connection]
-ssh-user = "KURS16"
-
-[general]
-check-remote-source-on-startup = false
-
-[global.settings.general]
-TARGET_LIB = "KURS16"
