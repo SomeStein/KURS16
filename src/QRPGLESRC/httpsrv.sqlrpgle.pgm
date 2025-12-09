@@ -1,0 +1,32 @@
+**free
+
+ctl-opt main(main) bnddir('MAIN_BD');
+/INCLUDE QHEADERSRC,MAIN_BD
+
+
+///
+// system
+// Execute an ILE command
+// @param The command as string pointer
+///
+dcl-pr system int(10) extproc('system');
+  command pointer value options(*string);
+end-pr;
+
+
+dcl-proc main;
+
+  rt_LogInfo('Start');
+
+  DoW not %SHTDN();
+
+    system('DLYJOB 5');
+    rt_logDebug('pipiMessage');
+
+  enddo;
+
+  rt_LogInfo('ENDE');
+
+  *inLR = *on;
+end-proc;
+
