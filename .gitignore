@@ -1,1 +1,6 @@
-.obi/
+.obi/etc/.user-app-config.toml
+**/log
+**/tmp
+**/build-output
+**/__pycache__
+.obi/etc/object-builds.json
